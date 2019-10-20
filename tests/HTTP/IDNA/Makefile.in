@@ -1,0 +1,6 @@
+@testidna_deps@
+
+sources := Application.cpp
+target := TestIDNA
+
+include $(top_srcdir)/tests/Test.post.rules

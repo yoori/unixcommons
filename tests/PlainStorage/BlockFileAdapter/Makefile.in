@@ -1,0 +1,10 @@
+# @file   Makefile.in
+
+# 
+
+@testblockfileadapter_deps@
+
+sources := Main.cpp
+target := TestBlockFileAdapter
+
+include $(top_srcdir)/tests/Test.post.rules

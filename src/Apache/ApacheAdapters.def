@@ -1,0 +1,8 @@
+name="Apache Adapters"
+so_files=ApacheAdapters
+
+osbe_cxx_dep "Stream"
+osbe_cxx_dep "ApacheModule"
+osbe_cxx_dep "http"
+
+$unixcommons_def_initializer

@@ -1,0 +1,3 @@
+osbe_cxx_dep "CORBAConfigParser"
+osbe_cxx_dep "TestCommons"
+osbe_cxx_dep "TestCrashStubs"

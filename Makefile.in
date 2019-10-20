@@ -1,0 +1,36 @@
+# @file   Makefile.in
+
+
+include Common.pre.rules
+include $(osbe_builddir)/config/Install.pre.rules
+
+target_directory_list := \
+  doc \
+  src \
+  tests \
+
+doc: tests src
+
+define install_commands
+  echo "Installing UnixCommons ..."
+  $(INSTALL_DIR) $(top_srcdir)/src $(destdir)$(includedir) "*.idl *.[hit]pp" && \
+  $(INSTALL_DIR) $(top_builddir)/src $(destdir)$(includedir) "*.[hit]pp" && \
+  $(INSTALL_DIR) $(top_builddir)/lib $(destdir)$(libdir) "" \
+  -not -name "*[Tt]est*" && \
+  $(INSTALL_DIR) $(top_builddir)/libdefs $(destdir)$(defsdir) "*.def" \
+  -not -name "*[Tt]est*" -and -not -name "*Stubs*" && \
+  $(INSTALL_DIR) $(top_builddir)/bin $(destdir)$(bindir) "" \
+  -name ".svn" -prune -a -false -o \
+  -not -name "*[Tt]est*" -and -not -name "*CORBA*" && \
+  $(INSTALL_DIR) $(top_srcdir)/bin $(destdir)$(bindir) "" \
+  -name ".svn" -prune -a -false -o \
+  -not -name "*[Tt]est*" -and -not -name "*CORBA*" && \
+  $(INSTALL_DIR) $(top_srcdir)/share $(destdir)$(datadir) \
+  "*-MIB.txt" -name ".svn" -prune -a -false -o -true && \
+  $(INSTALL_DIR) $(top_srcdir)/share $(destdir)$(datadir) \
+  "*.der" -name ".svn" -prune -a -false -o -true && \
+  echo "Install complete"
+endef
+
+include $(osbe_builddir)/config/Direntry.post.rules
+include $(osbe_builddir)/config/Install.post.rules

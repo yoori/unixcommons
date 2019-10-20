@@ -1,0 +1,6 @@
+@singleton_deps@
+
+sources := Application.cpp
+target := TestSingleton
+
+include $(top_srcdir)/tests/Test.post.rules

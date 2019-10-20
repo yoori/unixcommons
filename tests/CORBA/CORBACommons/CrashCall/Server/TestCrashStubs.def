@@ -1,0 +1,5 @@
+name=TestCrashStubs
+so_files=TestCrashStubs
+
+osbe_cxx_feature_dep "CORBA"
+osbe_cxx_dep "CORBACommons"

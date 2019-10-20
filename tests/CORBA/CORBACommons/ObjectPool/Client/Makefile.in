@@ -1,0 +1,8 @@
+@corbaobjectpoolclient_deps@
+
+sources := ObjectPoolTestClient.cpp
+target := CORBAObjectPoolTestClient
+test_command := $(srcdir)/Test.sh
+vg_test_command = $(test_command) $(vg_prefix)
+
+include $(top_srcdir)/tests/Test.post.rules

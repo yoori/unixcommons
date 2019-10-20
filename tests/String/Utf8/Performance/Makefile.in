@@ -1,0 +1,10 @@
+# @file   Makefile.in
+
+
+@testutf8performance_deps@
+
+sources := PerformanceTest.cpp
+target := TestUTF8Performance
+vg_test_arguments := 50
+
+include $(top_srcdir)/tests/Test.post.rules

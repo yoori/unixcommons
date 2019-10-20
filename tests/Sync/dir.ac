@@ -1,0 +1,6 @@
+# @file   Sync/dir.ac
+
+OSBE_CONFIG_FILE([Makefile])
+OSBE_CONFIG_SUBDIR([Condition])
+OSBE_CONFIG_SUBDIR([MutexTest])
+OSBE_CONFIG_SUBDIR([PosixMutex])

@@ -1,0 +1,6 @@
+@testanalyzer_deps@
+
+sources := AnalyzerTest.cpp
+target := TestAnalyzer
+
+include $(top_srcdir)/tests/Test.post.rules

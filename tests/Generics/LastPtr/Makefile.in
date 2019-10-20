@@ -1,0 +1,6 @@
+@testlastptr_deps@
+
+sources := Application.cpp
+target := TestLastPtr
+
+include $(top_srcdir)/tests/Test.post.rules

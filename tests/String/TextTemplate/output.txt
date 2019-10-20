@@ -1,0 +1,6 @@
+<redirect xmlns='http://www.adintelligence.net/AdServer/ChannelService/Redirect' version='1.0'>
+  <request method='get'>
+    <uri>http://acc.adintelligence.net/hserver/requestid=__REQUEST_%D1%86%D1%83%D0%B0%D0%B7%D1%88%D1%89%D0%BE%D0%B9%D0%B0%D1%89%D1%88%D0%B9%D0%BE%D1%86%D1%83%D0%B0%D1%89%D1%88%D0%B9%D1%86%D1%83%D0%BA%D0%B0ID__/site=__SI_%D1%86%D1%83%D0%B0%D0%B7%D1%88%D1%89%D0%BE%D0%B9%D0%B0%D1%89%D1%88%D0%B9%D0%BE%D1%86%D1%83%D0%B0%D1%89%D1%88%D0%B9%D1%86%D1%83%D0%BA%D0%B0TE__/channel=.__CHANN_%D1%86%D1%83%D0%B0%D0%B7%D1%88%D1%89%D0%BE%D0%B9%D0%B0%D1%89%D1%88%D0%B9%D0%BE%D1%86%D1%83%D0%B0%D1%89%D1%88%D0%B9%D1%86%D1%83%D0%BA%D0%B0EL_LIST__./uid=__U_%D1%86%D1%83%D0%B0%D0%B7%D1%88%D1%89%D0%BE%D0%B9%D0%B0%D1%89%D1%88%D0%B9%D0%BE%D1%86%D1%83%D0%B0%D1%89%D1%88%D0%B9%D1%86%D1%83%D0%BA%D0%B0ID__/v=__V__/\u005F\u005FSI\u002F\u002FZ\u0446\u0443\u0430\u0437\u0448\u0449\u043E\u0439\u0430\u0449\u0448\u0439\u043E\u0446\u0443\u0430\u0449\u0448\u0439\u0446\u0443\u043A\u0430E\u005F\u005Fneed=__NEED__?keywords=__KEYWORD_LIST__&amp;search=__SEARCH_TR__&amp;search-words=__SEARCH_WORD__</uri>
+    <header name='Referer'>__REFE&#x432;&#x430;&#x441;RER__</header>
+  </request>
+</redirect>

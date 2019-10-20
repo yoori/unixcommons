@@ -1,0 +1,53 @@
+#ifndef TEST_OBJECT_POOL_SIMPLE
+#define TEST_OBJECT_POOL_SIMPLE
+
+module CORBATest
+{
+  interface TestObjectPool
+  {
+    /**
+     * calculate square of num, num^2 =  num * num
+     */
+    long
+    square(in long num);
+
+    /**
+     * calculate square root
+     */
+    long
+    root(in long num);
+
+    /**
+     * Start up additional objects (Cuatro object)
+     */
+    void
+    up();
+
+    /**
+     * calculate calls to object implementation
+     */
+    long
+    get_calling_number();
+  };
+
+  /**
+   * Interfaces to test _narrow call. ObjectPool support Configurations
+   * on base objects.
+   */
+  interface Base
+  {
+    /**
+     * @return true if call of Base object
+     */
+    long
+    is_base();
+
+  };
+
+  interface PoolObject : Base
+  {
+  };
+
+};
+
+#endif // TEST_OBJECT_POOL_SIMPLE

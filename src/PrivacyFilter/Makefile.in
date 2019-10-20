@@ -1,0 +1,6 @@
+@privacyfilter_deps@
+
+sources := Filter.cpp
+includes := src
+
+@privacyfilter_post@

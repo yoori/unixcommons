@@ -1,0 +1,18 @@
+@testhasher_deps@
+
+sources := \
+  AvalancheTest.cpp \
+  Bitslice.cpp \
+  Bitvec.cpp \
+  KeysetTest.cpp \
+  Main.cpp \
+  Platform.cpp \
+  Random.cpp \
+  SpeedTest.cpp \
+  Stats.cpp \
+  Test.cpp \
+  Types.cpp
+
+target := TestHasher
+
+@testhasher_post@

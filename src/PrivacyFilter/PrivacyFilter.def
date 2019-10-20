@@ -1,0 +1,6 @@
+name="Privacy Filter"
+so_files=PrivacyFilter
+
+osbe_cxx_dep "OpenSSL"
+
+$unixcommons_def_initializer

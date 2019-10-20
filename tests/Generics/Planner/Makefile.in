@@ -1,0 +1,6 @@
+@plannertest_deps@
+
+sources := Application.cpp
+target := TestActivateDeactivatePlanner
+
+include $(top_srcdir)/tests/Test.post.rules

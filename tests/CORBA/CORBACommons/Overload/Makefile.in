@@ -1,0 +1,7 @@
+include Common.pre.rules
+
+target_directory_list := \
+  Client \
+  Server \
+
+include $(osbe_builddir)/config/Direntry.post.rules

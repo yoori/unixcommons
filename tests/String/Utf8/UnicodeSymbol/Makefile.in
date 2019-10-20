@@ -1,0 +1,9 @@
+# @file   Makefile.in
+
+
+@testunicodesymbol_deps@
+
+sources := TestUnicodeSymbol.cpp
+target := TestUnicodeSymbol
+
+include $(top_srcdir)/tests/Test.post.rules

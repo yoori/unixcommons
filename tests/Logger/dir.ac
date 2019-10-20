@@ -1,0 +1,9 @@
+# @file   dir.ac
+
+
+OSBE_CONFIG_FILE([Makefile])
+OSBE_CONFIG_SUBDIR([FileLogger])
+OSBE_CONFIG_SUBDIR([MTTesterLog])
+OSBE_CONFIG_SUBDIR([ProcessLogger])
+OSBE_CONFIG_SUBDIR([SStream])
+OSBE_CONFIG_SUBDIR([SysLogger])

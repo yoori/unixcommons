@@ -1,0 +1,40 @@
+# @file   Makefile.in
+
+
+include Common.pre.rules
+
+target_directory_list := \
+  Allocator \
+  AllocatorsTest \
+  AppUtils \
+  BitAlgs \
+  BoundedMap \
+  CRC \
+  CompositeActiveObject \
+  CompressedSet \
+  CountryCodeManip \
+  Decimal \
+  Hash \
+  HashTable \
+  LastPtr \
+  Listener \
+  LocalInterfaces \
+  MemBuf \
+  MTTester \
+  Periodic \
+  Planner \
+  RandTest \
+  Reflection \
+  Scheduler \
+  Scheduler2 \
+  SmartPtr \
+  Singleton \
+  TAlloc \
+  TaskRunner \
+  TaskRunnerQueue \
+  TaskRunnerSlowCoach \
+  TaskRunnerThreads \
+  TimeManipsTest \
+  Uuid \
+
+include $(osbe_builddir)/config/Direntry.post.rules

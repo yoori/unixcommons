@@ -1,0 +1,10 @@
+@corbaoverloadserver_deps@
+
+corba_skeleton_idls := TestInt.idl
+sources := \
+  Application.cpp \
+  TestIntImpl.cpp \
+
+target := CORBAOverloadServer
+
+@corbaoverloadserver_post@

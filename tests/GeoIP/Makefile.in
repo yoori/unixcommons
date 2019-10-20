@@ -1,0 +1,9 @@
+# @file   Makefile.in
+
+
+@testgeoip_deps@
+
+sources := TestGeoIP.cpp
+target := TestGeoIP
+
+include $(top_srcdir)/tests/Test.post.rules

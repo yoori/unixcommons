@@ -1,0 +1,26 @@
+#ifndef _CORBA_COMMONS_TEST_INT_IDL_
+#define _CORBA_COMMONS_TEST_INT_IDL_
+
+#include <CORBACommons/Stats.idl>
+
+module CORBATest
+{
+  typedef sequence<octet> OctetSeq;
+
+  typedef sequence<OctetSeq> Seq2;
+  typedef sequence<Seq2> Seq3;
+  
+  interface TestInt : CORBACommons::ProcessStatsControl
+  {
+    void
+    test(in OctetSeq param);
+    oneway void
+    oneway_test(in OctetSeq param);
+    Seq3
+    memory_test();
+    void
+    print_memory(in boolean full);
+  };
+};
+
+#endif // _CORBA_COMMONS_TEST_INT_IDL_

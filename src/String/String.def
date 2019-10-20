@@ -1,0 +1,7 @@
+name=String
+so_files=String
+
+osbe_cxx_dep "pcre"
+osbe_cxx_dep "ExceptionHandling"
+
+$unixcommons_def_initializer

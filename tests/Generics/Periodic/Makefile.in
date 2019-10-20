@@ -1,0 +1,6 @@
+@testperiodic_deps@
+
+sources := Application.cpp
+target := TestPeriodic
+
+include $(top_srcdir)/tests/Test.post.rules

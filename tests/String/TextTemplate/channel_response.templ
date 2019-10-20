@@ -1,0 +1,6 @@
+<redirect xmlns='http://www.adintelligence.net/AdServer/ChannelService/Redirect' version='1.0'>
+  <request method='get'>
+    <uri>http://acc.adintelligence.net/hserver/requestid=%%mime-url:POPAdServer.RequestId%%/site=%%mime-url:POPAdClient-param.site=somedefault%%/channel=.%%mime-url:POPAdServer.ChannelList..%%./uid=%%mime-url:POPAdClient-param.uid%%/v=%%mime-url:POPAdClient-param.v%%/%%POPAdClient-param.size%%need=%%mime-url:POPAdClient-param.need%%?keywords=%%mime-url:POPAdServer.KeywordList.,%%&amp;search=%%mime-url:POPAdClient-header.Search-tr%%&amp;search-words=%%mime-url:POPAdServer.SearchWordList.,%%</uri>
+    <header name='Referer'>%%xml:POPAdClient-header.referer%%</header>
+  </request>
+</redirect>

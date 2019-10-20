@@ -1,0 +1,8 @@
+# @file   Makefile.in
+
+
+@ipmap_deps@
+
+sources  := IPMap.cpp
+
+@ipmap_post@

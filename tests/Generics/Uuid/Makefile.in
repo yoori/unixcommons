@@ -1,0 +1,9 @@
+# @file   Makefile.in
+
+
+@testuuid_deps@
+
+sources := UuidTest.cpp
+target := TestUuid
+
+include $(top_srcdir)/tests/Test.post.rules

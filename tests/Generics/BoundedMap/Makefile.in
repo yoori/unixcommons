@@ -1,0 +1,6 @@
+@testboundmap_deps@
+
+sources := Application.cpp
+target := TestBoundMap
+
+include $(top_srcdir)/tests/Test.post.rules

@@ -1,0 +1,7 @@
+# @file   Makefile.in
+
+@preloadace_deps@
+
+sources := PreloadACE.cpp
+
+@preloadace_post@

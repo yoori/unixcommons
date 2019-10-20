@@ -1,0 +1,8 @@
+@testcommons_deps@
+
+sources := \
+  CheckFileMessages.cpp \
+
+includes := tests
+
+@testcommons_post@

@@ -1,0 +1,7 @@
+@testhttppoolsimple_deps@
+
+sources := Main.cpp
+target := TestHttpPoolSimple
+apache_required := 1
+
+include $(top_srcdir)/tests/Test.post.rules

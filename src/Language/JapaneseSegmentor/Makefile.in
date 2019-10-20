@@ -1,0 +1,9 @@
+# @file   Makefile.in
+
+
+@japanesesegmentor_deps@
+
+sources := \
+  Mecab.cpp \
+
+@japanesesegmentor_post@

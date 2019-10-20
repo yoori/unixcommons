@@ -1,0 +1,7 @@
+@corbacrashcallserver_deps@
+
+sources := Application.cpp
+corba_skeleton_idls := TestCrash.idl
+target := CORBACrashCallServer
+
+@corbacrashcallserver_post@

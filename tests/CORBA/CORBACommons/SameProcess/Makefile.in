@@ -1,0 +1,13 @@
+@corbasameprocess_deps@
+
+
+corba_skeleton_idls := TestInt2.idl
+corba_stub_idls := TestInt2.idl
+
+sources := Application.cpp
+target := CORBASameProcess
+test_command := $(srcdir)/Test.sh $(top_srcdir)/tests/CORBA/Data
+vg_test_command = $(test_command) $(vg_prefix)
+
+@corbasameprocess_post@
+include $(top_srcdir)/tests/Test.post.rules

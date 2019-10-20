@@ -1,0 +1,13 @@
+# @file   Makefile.in
+
+
+include Common.pre.rules
+
+target_directory_list := \
+  FileLogger \
+  MTTesterLog \
+  ProcessLogger \
+  SStream \
+  SysLogger \
+
+include $(osbe_builddir)/config/Direntry.post.rules

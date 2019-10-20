@@ -1,0 +1,12 @@
+# @file   Makefile.in
+
+
+@testfilelogger_deps@
+
+sources := TestFileLogger.cpp
+target := TestFileLogger
+common_arguments = -c 20000 -T 60 -S 1000000 -t -p 1000000
+test_arguments = $(common_arguments) -f '$(tmp_dir)/$(target).`date`.log' 
+vg_test_arguments = $(common_arguments) -f '$(tmp_dir)/$(target).`date`.vg.log'
+
+include $(top_srcdir)/tests/Test.post.rules

@@ -1,0 +1,6 @@
+@testasciistringmanip_deps@
+
+sources := AsciiStringManipTest.cpp
+target := TestAsciiStringManip
+
+include $(top_srcdir)/tests/Test.post.rules

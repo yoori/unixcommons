@@ -1,0 +1,7 @@
+name="CORBA Config Parser"
+so_files=CORBAConfigParser
+
+osbe_cxx_dep "CORBACommons"
+osbe_cxx_dep "XMLUtility"
+
+$unixcommons_def_initializer

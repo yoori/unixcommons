@@ -1,0 +1,7 @@
+name=GenericSegmentor
+so_files=GenericSegmentor
+
+osbe_cxx_dep "SegmentorCommons"
+osbe_cxx_dep "Polyglot"
+
+$unixcommons_def_initializer

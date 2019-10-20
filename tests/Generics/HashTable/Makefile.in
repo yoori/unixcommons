@@ -1,0 +1,9 @@
+# @file   Makefile.in
+
+
+@testhashtable_deps@
+
+sources := Application.cpp
+target := TestHashTable
+
+include $(top_srcdir)/tests/Test.post.rules

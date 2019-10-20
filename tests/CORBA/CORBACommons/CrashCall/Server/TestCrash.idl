@@ -1,0 +1,12 @@
+#ifndef CORBA_COMMONS_TEST_CRASH_IDL
+#define CORBA_COMMONS_TEST_CRASH_IDL
+
+module CORBATest
+{
+  interface TestCrash
+  {
+    void crash();
+  };
+};
+
+#endif

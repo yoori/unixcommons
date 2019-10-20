@@ -1,0 +1,13 @@
+# @file   dir.ac
+
+
+OSBE_CONFIG_FILE([Makefile])
+OSBE_CONFIG_SUBDIR([BLogic])
+#OSBE_CONFIG_SUBDIR([ChineeseSegmentor])
+OSBE_CONFIG_SUBDIR([GenericSegmentor])
+#OSBE_CONFIG_SUBDIR([JapaneseSegmentor])
+#OSBE_CONFIG_SUBDIR([KoreanSegmentor])
+OSBE_CONFIG_SUBDIR([Polyglot])
+OSBE_CONFIG_SUBDIR([SegmentorCommons])
+OSBE_CONFIG_SUBDIR([SegmentorManager])
+OSBE_CONFIG_SUBDIR([SegmentorUtil])

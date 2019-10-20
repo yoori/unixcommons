@@ -1,0 +1,6 @@
+@testmembuf_deps@
+
+sources := Application.cpp
+target := TestMemBuf
+
+include $(top_srcdir)/tests/Test.post.rules

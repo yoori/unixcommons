@@ -1,0 +1,12 @@
+# @file   dir.ac
+
+
+OSBE_CONFIG_FILE([Makefile])
+OSBE_CONFIG_SUBDIR([Analyzer])
+OSBE_CONFIG_SUBDIR([AsciiStringManip])
+OSBE_CONFIG_SUBDIR([RegEx])
+OSBE_CONFIG_SUBDIR([StringManip])
+OSBE_CONFIG_SUBDIR([SubString])
+OSBE_CONFIG_SUBDIR([TextTemplate])
+OSBE_CONFIG_SUBDIR([UnicodeNormalizer])
+OSBE_CONFIG_SUBDIR([Utf8])

@@ -1,0 +1,6 @@
+@testtriggernorm_deps@
+
+sources := Main.cpp
+target := TestTriggerNorm
+
+include $(top_srcdir)/tests/Test.post.rules

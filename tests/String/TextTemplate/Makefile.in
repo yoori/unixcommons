@@ -1,0 +1,10 @@
+# @file   Makefile.in
+
+
+@testtexttemplate_deps@
+
+sources := TestTemplate.cpp
+target := TestTextTemplate
+test_arguments := $(srcdir)/channel_response.templ 2 $(srcdir)/keys.txt $(srcdir)/output.txt
+
+include $(top_srcdir)/tests/Test.post.rules

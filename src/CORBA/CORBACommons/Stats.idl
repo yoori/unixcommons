@@ -1,0 +1,21 @@
+module CORBACommons
+{
+  struct StatsValue
+  {
+    string key;
+    any value;
+  };
+
+  typedef sequence<StatsValue> StatsValueSeq;
+
+  interface ProcessStatsControl
+  {
+    exception ImplementationException
+    {
+      string description;
+    };
+
+    StatsValueSeq
+    get_stats() raises (ImplementationException);
+  };
+};

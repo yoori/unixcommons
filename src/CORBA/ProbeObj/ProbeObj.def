@@ -1,0 +1,2 @@
+osbe_cxx_dep "CORBACommons"
+osbe_cxx_dep "CORBAConfigParser"

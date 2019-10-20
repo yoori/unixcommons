@@ -1,0 +1,9 @@
+# @file   Makefile.in
+
+
+@testhttpaddress_deps@
+
+sources := Application.cpp
+target := TestHTTPAddress
+
+include $(top_srcdir)/tests/Test.post.rules

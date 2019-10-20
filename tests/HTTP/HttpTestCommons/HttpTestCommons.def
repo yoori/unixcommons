@@ -1,0 +1,5 @@
+name=HttpTestCommons
+so_files=HttpTestCommons
+
+osbe_cxx_dep "http"
+osbe_cxx_dep "TestCommons"

@@ -1,0 +1,6 @@
+@testscheduler2_deps@
+
+sources := Application.cpp
+target := TestScheduler2
+
+include $(top_srcdir)/tests/Test.post.rules

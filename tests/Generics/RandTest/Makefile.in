@@ -1,0 +1,6 @@
+@randtest_deps@
+
+sources := Main.cpp
+target := RandTest
+
+include $(top_srcdir)/tests/Test.post.rules

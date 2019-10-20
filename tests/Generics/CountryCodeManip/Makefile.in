@@ -1,0 +1,6 @@
+@testcountrycodemanip_deps@
+
+sources := Application.cpp
+target := TestCountryCodeManip
+
+include $(top_srcdir)/tests/Test.post.rules

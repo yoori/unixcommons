@@ -1,0 +1,701 @@
+{
+   ACE::sendv points to unitialized
+   Memcheck:Param
+   writev(vector[...])
+   fun:*ACE*sendv*
+}
+
+{
+   SSL_read returns uninitialized
+   Memcheck:Value8
+   fun:*ACE_SSL_SOCK_Stream*recv*
+}
+
+{
+   SSL_pending returns uninitialized
+   Memcheck:Cond
+   fun:*TAO*SSLIOP*Connection_Handler*pos_io_hook*
+}
+
+{
+   Crypto
+   Memcheck:Cond
+   obj:/usr/lib64/libcrypto.so.*
+}
+
+{
+   Crypto
+   Memcheck:Value8
+   obj:/usr/lib64/libcrypto.so.*
+}
+
+{
+   Crypto
+   Memcheck:Param
+   write(buf)
+   fun:*
+   obj:/usr/lib64/libcrypto.so.*
+}
+
+{
+   Crypto
+   Memcheck:Addr4
+   fun:*AES_cbc_encrypt*
+}
+
+{
+   Crypto
+   Memcheck:Cond
+   fun:*
+   obj:/usr/lib64/libcrypto.so.*
+}
+
+{
+   Crypto
+   Memcheck:Value8
+   fun:*
+   obj:/usr/lib64/libcrypto.so.*
+}
+
+{
+   Crypto
+   Memcheck:Cond
+   fun:*
+   fun:*
+   obj:/usr/lib64/libcrypto.so.*
+}
+
+{
+   Crypto
+   Memcheck:Value8
+   fun:*
+   fun:*
+   obj:/usr/lib64/libcrypto.so.*
+}
+
+{
+   Crypto
+   Memcheck:Cond
+   fun:*
+   fun:*
+   fun:*
+   obj:/usr/lib64/libcrypto.so.*
+}
+
+{
+   Crypto
+   Memcheck:Value8
+   fun:*
+   fun:*
+   fun:*
+   obj:/usr/lib64/libcrypto.so.*
+}
+
+{
+   SSL
+   Memcheck:Cond
+   obj:/usr/lib64/libssl.so.*
+}
+
+{
+   SSL
+   Memcheck:Value8
+   obj:/usr/lib64/libssl.so.*
+}
+
+{
+   SSL
+   Memcheck:Cond
+   fun:*
+   obj:/usr/lib64/libssl.so.*
+}
+
+{
+   SSL
+   Memcheck:Value8
+   fun:*
+   obj:/usr/lib64/libssl.so.*
+}
+
+{
+   net-snmp
+   Memcheck:Cond
+   fun:__strcpy_chk
+   fun:read_module_internal
+}
+
+{
+   net-snmp
+   Memcheck:Leak
+   fun:calloc
+   fun:netsnmp_cache_create
+}
+
+{
+   KLT
+   Memcheck:Addr1
+   obj:/usr/lib64/libstdc++.so.*
+   fun:*valarray_fill*
+   fun:*Language*Segmentor*Korean*KltSegmentor*segmentation*list*
+}
+
+{
+   KLT
+   Memcheck:Addr1
+   fun:*memcpy
+   fun:*replace*normal_iterator*
+   fun:*valarray_fill*
+   fun:*Language*Segmentor*Korean*KltSegmentor*segmentation*list*
+}
+
+{
+   KLT
+   Memcheck:Addr1
+   fun:*memcpy
+   fun:*moneypunct*frac_digits*
+   fun:*Language*Segmentor*Korean*KltSegmentor*segmentation*list*
+}
+
+{
+   KLT
+   Memcheck:Addr1
+   fun:*moneypunct*positive_sign*
+   fun:*Language*Segmentor*Korean*KltSegmentor*segmentation*list*
+}
+
+{
+   KLT
+   Memcheck:Addr1
+   fun:*memcpy
+   obj:/usr/lib64/libstdc++.so.*
+   obj:/usr/lib64/libstdc++.so.*
+   fun:*Language*Segmentor*Korean*KltSegmentor*segmentation*list*
+}
+
+{
+   KLT
+   Memcheck:Addr1
+   obj:/usr/lib64/libstdc++.so.*
+   obj:/usr/lib64/libstdc++.so.*
+   fun:*Language*Segmentor*Korean*KltSegmentor*segmentation*list*
+}
+
+{
+   KLT
+   Memcheck:Cond
+   fun:normalizeEomi
+   fun:normalize_JosaEomi
+   fun:morph_anal_TS
+   fun:get_base_stems
+   fun:get_keylist
+   fun:get_keyarray
+   fun:get_stems_TS
+   fun:get_tokens_TS
+   fun:*Language*Segmentor*Korean*KltSegmentor*segmentation*list*
+}
+
+{
+   KLT
+   Memcheck:Cond
+   fun:normalizeJosa
+   fun:normalize_JosaEomi
+   fun:morph_anal_TS
+   fun:get_base_stems
+   fun:get_keylist
+   fun:get_keyarray
+   fun:get_stems_TS
+   fun:get_tokens_TS
+   fun:*Language*Segmentor*Korean*KltSegmentor*segmentation*list*
+}
+
+{
+   KLT
+   Memcheck:Cond
+   fun:surname_freq
+   fun:is_personname
+   fun:more_scoring
+   fun:basic_score
+   fun:morph_anal_TS
+   fun:get_base_stems
+   fun:get_keylist
+   fun:get_keyarray
+   fun:get_stems_TS
+   fun:get_tokens_TS
+   fun:*Language*Segmentor*Korean*KltSegmentor*segmentation*list*
+}
+
+{
+   KLT
+   Memcheck:Cond
+   fun:is_name_valid
+   fun:is_personname
+   fun:more_scoring
+   fun:basic_score
+   fun:morph_anal_TS
+   fun:get_base_stems
+   fun:get_keylist
+   fun:get_keyarray
+   fun:get_stems_TS
+   fun:get_tokens_TS
+   fun:*Language*Segmentor*Korean*KltSegmentor*segmentation*list*
+}
+
+{
+   KLT
+   Memcheck:Cond
+   fun:basic_score_failed
+   fun:basic_score
+   fun:morph_anal_TS
+   fun:get_base_stems
+   fun:get_keylist
+   fun:get_keyarray
+   fun:get_stems_TS
+   fun:get_tokens_TS
+   fun:*Language*Segmentor*Korean*KltSegmentor*segmentation*list*
+}
+
+{
+   KLT
+   Memcheck:Addr4
+   fun:get_tokens_TS
+   fun:*Language*Segmentor*Korean*KltSegmentor*segmentation*list*
+}
+
+{
+   KLT
+   Memcheck:Cond
+   fun:getBestFailed_1
+   fun:getBestFailed
+   fun:basic_score
+   fun:morph_anal_TS
+   fun:get_base_stems
+   fun:get_keylist
+   fun:get_keyarray
+   fun:get_stems_TS
+   fun:get_tokens_TS
+   fun:*Language*Segmentor*Korean*KltSegmentor*segmentation*list*
+}
+
+{
+   KLT
+   Memcheck:Cond
+   fun:JosaEomi2sylMore
+   fun:getBestFailed_1
+   fun:getBestFailed
+   fun:basic_score
+   fun:morph_anal_TS
+   fun:get_base_stems
+   fun:get_keylist
+   fun:get_keyarray
+   fun:get_stems_TS
+   fun:get_tokens_TS
+   fun:*Language*Segmentor*Korean*KltSegmentor*segmentation*list*
+}
+
+{
+   KLT
+   Memcheck:Cond
+   fun:*strcpy
+   fun:save_np
+   fun:single_word
+   fun:tail_guess
+   fun:ham_hangul
+   fun:ham_ascii2
+   fun:Ham
+   fun:morph_anal_TS
+   fun:get_base_stems
+   fun:get_keylist
+   fun:get_keyarray
+   fun:get_stems_TS
+   fun:get_tokens_TS
+   fun:*Language*Segmentor*Korean*KltSegmentor*segmentation*list*
+}
+
+{
+   KLT
+   Memcheck:Cond
+   fun:save_np
+   fun:single_word
+   fun:tail_guess
+   fun:ham_hangul
+   fun:ham_ascii2
+   fun:Ham
+   fun:morph_anal_TS
+   fun:get_base_stems
+   fun:get_keylist
+   fun:get_keyarray
+   fun:get_stems_TS
+   fun:get_tokens_TS
+   fun:*Language*Segmentor*Korean*KltSegmentor*segmentation*list*
+}
+
+{
+   KLT
+   Memcheck:Cond
+   fun:is_noun
+   fun:dic_access
+   fun:head_confirm
+   fun:ham_hangul
+   fun:ham_ascii2
+   fun:Ham
+   fun:morph_anal_TS
+   fun:get_base_stems
+   fun:get_keylist
+   fun:get_keyarray
+   fun:get_stems_TS
+   fun:get_tokens_TS
+   fun:*Language*Segmentor*Korean*KltSegmentor*segmentation*list*
+}
+
+{
+   KLT
+   Memcheck:Cond
+   fun:*strcpy
+   fun:copy_kword
+   fun:is_noun
+   fun:dic_access
+   fun:head_confirm
+   fun:ham_hangul
+   fun:ham_ascii2
+   fun:Ham
+   fun:morph_anal_TS
+   fun:get_base_stems
+   fun:get_keylist
+   fun:get_keyarray
+   fun:get_stems_TS
+   fun:get_tokens_TS
+   fun:*Language*Segmentor*Korean*KltSegmentor*segmentation*list*
+}
+
+{
+   KLT
+   Memcheck:Cond
+   fun:check_Wi_dropped
+   fun:is_verb
+   fun:nominal_eomi
+   fun:is_noun
+   fun:dic_access
+   fun:head_confirm
+   fun:ham_hangul
+   fun:ham_ascii2
+   fun:Ham
+   fun:morph_anal_TS
+   fun:get_base_stems
+   fun:get_keylist
+   fun:get_keyarray
+   fun:get_stems_TS
+   fun:get_tokens_TS
+   fun:*Language*Segmentor*Korean*KltSegmentor*segmentation*list*
+}
+
+{
+   KLT
+   Memcheck:Cond
+   fun:tail_guess
+   fun:ham_hangul
+   fun:ham_ascii2
+   fun:Ham
+   fun:morph_anal_TS
+   fun:get_base_stems
+   fun:get_keylist
+   fun:get_keyarray
+   fun:get_stems_TS
+   fun:get_tokens_TS
+   fun:*Language*Segmentor*Korean*KltSegmentor*segmentation*list*
+}
+
+{
+   KLT
+   Memcheck:Cond
+   fun:getBestFailed_1
+   fun:getBestFailed
+   fun: basic_score
+   fun: morph_anal_TS
+   fun:get_base_stems
+   fun:get_keylist
+   fun:get_keyarray
+   fun:get_stems_TS
+   fun:get_tokens_TS
+   fun:*Language*Segmentor*Korean*KltSegmentor*segmentation*list*
+}
+
+{
+   KLT
+   Memcheck:Cond
+   fun:normalize_JosaEomi
+   fun:morph_anal_TS
+   fun:get_base_stems
+   fun:get_keylist
+   fun:get_keyarray
+   fun:get_stems_TS
+   fun:get_tokens_TS
+   fun:*Language*Segmentor*Korean*KltSegmentor*segmentation*list*
+}
+
+{
+   KLT
+   Memcheck:Cond
+   fun:KSSMtoKSC
+   fun:hamout_KSSM2KSC
+   fun:morph_anal_TS
+   fun:get_base_stems
+   fun:get_keylist
+   fun:get_keyarray
+   fun:get_stems_TS
+   fun:get_tokens_TS
+   fun:*Language*Segmentor*Korean*KltSegmentor*segmentation*list*
+}
+
+{
+   KLT
+   Memcheck:Cond
+   fun:tail_class
+   fun:get_stems_word
+   fun:get_base_stems
+   fun:get_keylist
+   fun:get_keyarray
+   fun:get_stems_TS
+   fun:get_tokens_TS
+   fun:*Language*Segmentor*Korean*KltSegmentor*segmentation*list*
+}
+
+{
+   KLT
+   Memcheck:Cond
+   fun:is_HighFreq1SylJosa
+   fun:basic_score_guess
+   fun:basic_score
+   fun:morph_anal_TS
+   fun:get_base_stems
+   fun:get_keylist
+   fun:get_keyarray
+   fun:get_stems_TS
+   fun:get_tokens_TS
+   fun:*Language*Segmentor*Korean*KltSegmentor*segmentation*list*
+}
+
+{
+   KLT
+   Memcheck:Cond
+   fun:KSSMcode
+   fun:is_verb
+   fun:dic_access
+   fun:head_confirm
+   fun:ham_hangul
+   fun:Ham
+   fun:morph_anal_TS
+   fun:get_base_stems
+   fun:get_keylist
+   fun:get_keyarray
+   fun:get_stems_TS
+   fun:get_tokens_TS
+   fun:*Language*Segmentor*Korean*KltSegmentor*segmentation*list*
+}
+
+{
+   KLT
+   Memcheck:Cond
+   fun:score_adjust
+   fun:more_scoring
+   fun:basic_score
+   fun:morph_anal_TS
+   fun:get_base_stems
+   fun:get_keylist
+   fun:get_keyarray
+   fun:get_stems_TS
+   fun:get_tokens_TS
+   fun:*Language*Segmentor*Korean*KltSegmentor*segmentation*list*
+}
+
+{
+   KLT
+   Memcheck:Addr1
+   fun:*memcpy
+   obj:/usr/lib64/libstdc++.so.*
+   fun:*Language*Segmentor*Korean*KltSegmentor*segmentation*list*
+}
+
+{
+   KLT
+   Memcheck:Addr1
+   obj:/usr/lib64/libstdc++.so.*
+   fun:*Language*Segmentor*Korean*KltSegmentor*segmentation*list*
+}
+
+{
+  Test RC leak
+  Memcheck:Leak
+  fun:*
+  fun:*RunningOnValgrind*check_ref_count*
+  fun:*ReferenceCounting*AtomicImpl*
+  fun:*main*Lock*
+  fun:main
+}
+
+{
+  Test RC leak
+  Memcheck:Leak
+  fun:*
+  fun:*RunningOnValgrind*check_ref_count*
+  fun:*ReferenceCounting*DefaultImpl*
+  fun:*main*Lock*
+  fun:main
+}
+
+{
+  Test RC leak
+  Memcheck:Leak
+  fun:*
+  fun:*RunningOnValgrind*check_ref_count*
+  fun:*ReferenceCounting*DefaultImpl*
+  fun:*Generics*KUnitLogic*Logic*Constant*
+  fun:*Generics*KUnitLogic*Logic*Parser*accept_const*
+  fun:*Generics*Calculator*compile*
+  fun:*Generics*Application*test_iteration*
+  fun:*Generics*Application*test*
+  fun:*Generics*Application*run*
+  fun:main
+}
+
+{
+  NLPIR
+  Memcheck:Free
+  fun:*
+  fun:*CZHPEncript*
+  fun:*CLicense*Load*
+  fun:NLPIR_Init
+}
+
+{
+  NLPIR
+  Memcheck:Cond
+  fun:*CContextStat*Destroy*
+  fun:*CContextStat*Load*
+  fun:NLPIR_Init
+}
+
+{
+  NLPIR
+  Memcheck:Addr4
+  fun:*CPDAT*Find*
+  fun:*CPDAT*Find*
+  fun:*CCodeTran*CodeTrans*
+  fun:*CCodeTran*CodeToGBK*
+  fun:*CMainSystem*Process*
+  fun:*CNLPIR*ParagraphProcess*
+}
+
+{
+  NLPIR
+  Memcheck:Addr4
+  fun:*CPDAT*Find*
+  fun:*CPDAT*Find*
+  fun:*CCodeTran*CodeTrans*
+  fun:*CCodeTran*GBKToCode*
+  fun:*CMainSystem*Process*
+  fun:*CNLPIR*ParagraphProcess*
+}
+
+{
+  NLPIR
+  Memcheck:Free
+  fun:*
+  fun:*CPreProcess*FullSegment*
+  fun:*CMainSystem*ProcessAtom*
+  fun:*CMainSystem*ProcessAtomEx*
+  fun:*CMainSystem*Process*
+  fun:*CNLPIR*ParagraphProcess*
+}
+
+{
+  NLPIR
+  Memcheck:Addr4
+  fun:*CPDAT*Find*
+  fun:*CPreProcess*AtomSegment*
+  fun:*CPreProcess*FullSegment*
+  fun:*CMainSystem*ProcessAtom*
+  fun:*CMainSystem*ProcessAtomEx*
+  fun:*CMainSystem*Process*
+  fun:*CNLPIR*ParagraphProcess*
+}
+
+{
+  NLPIR
+  Memcheck:Addr4
+  fun:*CPDAT*Find*
+  fun:*CPDAT*Find*
+  fun:*CEnglish*AddWord*
+  fun:*CEnglish*ProcessA*
+  fun:*CMainSystem*ProcessAtom*
+  fun:*CMainSystem*ProcessAtomEx*
+  fun:*CMainSystem*Process*
+  fun:*CNLPIR*ParagraphProcess*
+}
+
+{
+  NLPIR
+  Memcheck:Addr4
+  fun:*CPDAT*Find*
+  fun:*CPDAT*Find*
+  fun:*CEnglish*ProcessA*
+  fun:*CMainSystem*ProcessAtom*
+  fun:*CMainSystem*ProcessAtomEx*
+  fun:*CMainSystem*Process*
+  fun:*CNLPIR*ParagraphProcess*
+}
+
+{
+  NLPIR
+  Memcheck:Addr4
+  fun:*CPDAT*Find*
+  fun:*CPDAT*Find*
+  fun:*CEnglish*RecognizeNEType*
+  fun:*CEnglish*NER*
+  fun:*CEnglish*ProcessA*
+  fun:*CMainSystem*ProcessAtom*
+  fun:*CMainSystem*ProcessAtomEx*
+  fun:*CMainSystem*Process*
+  fun:*CNLPIR*ParagraphProcess*
+}
+
+{
+  NLPIR
+  Memcheck:Free
+  fun:*
+  fun:*CPreProcess*FullSegment*
+  fun:*CMainSystem*ProcessAtom*
+  fun:*CMainSystem*ProcessAtomEx*
+  fun:*CMainSystem*Process*
+  fun:*CNLPIR*ParagraphProcess*
+}
+
+{
+  NLPIR
+  Memcheck:Addr4
+  fun:*CPDAT*Find*
+  fun:*CPDAT*Find*
+  fun:*CPreProcess*AtomSegment*
+  fun:*CPreProcess*FullSegment*
+  fun:*CMainSystem*ProcessAtom*
+  fun:*CMainSystem*ProcessAtomEx*
+  fun:*CMainSystem*Process*
+  fun:*CNLPIR*ParagraphProcess*
+}
+
+{
+  NLPIR
+  Memcheck:Free
+  fun:*
+  fun:*CPreProcess*
+  fun:*CMainSystem*
+  fun:*CNLPIR*
+}
+
+{
+  NLPIR
+  Memcheck:Free
+  fun:*
+  fun:*CPreProcess*
+  fun:*CMainSystem*
+  fun:NLPIR_Exit
+}

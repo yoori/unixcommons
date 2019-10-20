@@ -1,0 +1,9 @@
+include Common.pre.rules
+
+description := CORBATimeout
+
+test_command := $(srcdir)/Test.sh \
+  $(srcdir)/../Overload/Client/Test.sh $(top_srcdir)/tests/CORBA/Data
+vg_test_command = $(test_command) $(vg_prefix)
+
+include $(top_srcdir)/tests/Test.post.rules

@@ -1,0 +1,6 @@
+@mttester_deps@
+
+sources := Application.cpp
+target := TestMTTester
+
+include $(top_srcdir)/tests/Test.post.rules

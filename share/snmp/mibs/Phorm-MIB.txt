@@ -1,0 +1,43 @@
+Phorm-MIB DEFINITIONS ::= BEGIN
+
+IMPORTS
+  MODULE-IDENTITY, enterprises FROM SNMPv2-SMI;
+
+phorm MODULE-IDENTITY
+  LAST-UPDATED "201312251219Z"
+  ORGANIZATION "Phorm, Inc."
+  CONTACT-INFO "admin@phorm.com"
+  DESCRIPTION "Phorm MIB data"
+  ::= { enterprises 28675 }
+
+datacapture OBJECT IDENTIFIER ::=
+  { phorm 1 }
+
+adserver OBJECT IDENTIFIER ::=
+  { phorm 2 }
+
+oix OBJECT IDENTIFIER ::=
+  { phorm 3 }
+
+flowmanager OBJECT IDENTIFIER ::=
+  { phorm 4 }
+
+webindex OBJECT IDENTIFIER ::=
+  { phorm 5 }
+
+oui OBJECT IDENTIFIER ::=
+  { phorm 6 }
+
+softspan OBJECT IDENTIFIER ::=
+  { phorm 7 }
+
+pl7a OBJECT IDENTIFIER ::=
+  { phorm 8 }
+
+inscape OBJECT IDENTIFIER ::=
+  { phorm 9 }
+
+nboo OBJECT IDENTIFIER ::=
+  { phorm 10 }
+
+END

@@ -1,0 +1,14 @@
+@http_deps@
+
+sources := \
+  Http.cpp \
+  HttpAsync.cpp \
+  HttpAsyncPool.cpp \
+  HttpAsyncPolicies.cpp \
+  HttpClient.cpp \
+  HttpConnection.cpp \
+  HTTPCookie.cpp \
+  HttpSync.cpp \
+  UrlAddress.cpp \
+
+@http_post@

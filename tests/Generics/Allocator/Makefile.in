@@ -1,0 +1,6 @@
+@allocator_deps@
+
+sources := Application.cpp
+target := TestAllocator
+
+include $(top_srcdir)/tests/Test.post.rules

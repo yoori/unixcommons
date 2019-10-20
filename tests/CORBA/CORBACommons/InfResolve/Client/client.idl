@@ -1,0 +1,37 @@
+/// client.idl
+#ifndef __130E387A_AC4C_4e7e_8A6D_9D2E0B5CF6B5_INCLUDED__
+#define __130E387A_AC4C_4e7e_8A6D_9D2E0B5CF6B5_INCLUDED__
+
+/// Put the interfaces in a module, to avoid global namespace pollution
+module Test
+{
+
+  typedef sequence<long> IntSeq;
+struct A
+{
+  long aa;
+  long bb;
+};
+  typedef sequence<A> AType;
+
+/// A very simple test interface
+interface Echo
+{
+  void
+  echoString(in AType as);
+};
+
+struct B
+{
+  long bb;
+};
+  
+/// test server liability
+interface OutVal
+{
+  void test(out B bs);
+};
+    
+}; 
+
+#endif // __130E387A_AC4C_4e7e_8A6D_9D2E0B5CF6B5_INCLUDED__

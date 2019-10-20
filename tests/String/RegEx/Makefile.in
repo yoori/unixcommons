@@ -1,0 +1,6 @@
+@testregex_deps@
+
+sources := Main.cpp
+target := TestRegEx
+
+include $(top_srcdir)/tests/Test.post.rules

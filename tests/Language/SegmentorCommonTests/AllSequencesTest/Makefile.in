@@ -1,0 +1,8 @@
+@allsequencestest_deps@
+
+sources := Main.cpp TestClasses.cpp
+target := AllSequencesTest
+test_arguments := -s -o -p --lower-border=1 --upper-border=4
+vg_test_arguments := -s -o -q --lower-border=1 --upper-border=4
+
+include $(top_srcdir)/tests/Test.post.rules

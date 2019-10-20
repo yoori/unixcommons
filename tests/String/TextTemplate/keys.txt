@@ -1,0 +1,11 @@
+POPAdServer.RequestId=__REQUEST_цуазшщойащшйоцуащшйцукаID__
+POPAdClient-param.site=__SI_цуазшщойащшйоцуащшйцукаTE__
+POPAdServer.ChannelList..=__CHANN_цуазшщойащшйоцуащшйцукаEL_LIST__
+POPAdClient-param.uid=__U_цуазшщойащшйоцуащшйцукаID__
+POPAdClient-param.v=__V__
+POPAdClient-param.size=__SI//ZцуазшщойащшйоцуащшйцукаE__
+POPAdClient-param.need=__NEED__
+POPAdServer.KeywordList.,=__KEYWORD_LIST__
+POPAdClient-header.Search-tr=__SEARCH_TR__
+POPAdServer.SearchWordList.,=__SEARCH_WORD__
+POPAdClient-header.referer=__REFEвасRER__

@@ -1,0 +1,6 @@
+@testsubstring_deps@
+
+sources := Application.cpp
+target := TestSubString
+
+include $(top_srcdir)/tests/Test.post.rules

@@ -1,0 +1,8 @@
+name="Syslog Java Adapter"
+if [ "X$use_java" != "Xnone" ]; then
+  so_files=SyslogJavaAdapter
+
+  osbe_cxx_dep "JavaCommons"
+
+  $unixcommons_def_initializer
+fi

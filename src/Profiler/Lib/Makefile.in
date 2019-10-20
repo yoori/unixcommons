@@ -1,0 +1,9 @@
+# @file   Makefile.in
+
+
+@profiler_deps@
+
+sources := Profiler.cpp
+includes := src
+
+@profiler_post@

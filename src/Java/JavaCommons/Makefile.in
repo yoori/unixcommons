@@ -1,0 +1,5 @@
+@javacommons_deps@
+
+includes := src/Java
+
+@javacommons_post@

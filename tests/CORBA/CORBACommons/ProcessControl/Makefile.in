@@ -1,0 +1,11 @@
+# @file   Makefile.in
+
+
+@testprocesscontrol_deps@
+
+sources := Application.cpp
+target := TestProcessControl
+test_command := $(srcdir)/Test.sh
+vg_test_command = $(srcdir)/Test.sh $(vg_prefix)
+
+include $(top_srcdir)/tests/Test.post.rules

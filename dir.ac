@@ -1,0 +1,7 @@
+# @file   dir.ac
+
+
+OSBE_CONFIG_FILE([Makefile])
+OSBE_CONFIG_SUBDIR([doc])
+OSBE_CONFIG_SUBDIR([src])
+OSBE_CONFIG_SUBDIR([tests])

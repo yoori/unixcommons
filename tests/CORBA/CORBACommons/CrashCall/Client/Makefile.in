@@ -1,0 +1,8 @@
+@corbacrashcallclient_deps@
+
+sources := Application.cpp
+target := CORBACrashCallClient
+test_command := $(srcdir)/Test.sh $(top_srcdir)/tests/CORBA/Data
+no_vg := 1
+
+include $(top_srcdir)/tests/Test.post.rules

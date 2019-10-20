@@ -1,0 +1,8 @@
+# @file   Makefile.in
+
+
+@apacheadapters_deps@
+
+sources := Adapters.cpp
+
+@apacheadapters_post@

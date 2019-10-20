@@ -1,0 +1,27 @@
+Apache Config Preprocessor Reference Manual
+
+1. Usage
+
+  preproc.pl <input_file> <output_file>
+
+2. Language syntax
+
+2.1 To define a variable
+
+  Set <var_name> <any_symbols_till_eol>
+
+2.3 To use a variable
+
+  $(<var_name>)
+
+2.4 To use '$' double it
+
+3. Semantic
+
+  The preprocessor process file line by line.
+
+  For each line at first all variable substitutions executed. Substitutions are not recursive. It means that any '$' in variable value appears in the resulting file as is. Note that substitutions also executed in 'Set' directive, this is how variables can be defined using other variables. If variable have not defined then the processors exits with error.
+
+  Then if the line begins with 'Set' directive optionally with some spaces before then the processor tries to define variable. If there are some syntax errors then the processor exits with error.
+
+  Else, if the line does not contain variable definition, it goes to output file.

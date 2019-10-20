@@ -1,0 +1,8 @@
+@testfilter_deps@
+
+sources := Application.cpp
+target := TestFilter
+test_command = $(srcdir)/Test.sh $$TEST_TOP_SRC_DIR/Data
+vg_test_command = $(srcdir)/Test.sh $$TEST_TOP_SRC_DIR/Data $(vg_prefix)
+
+include $(top_srcdir)/tests/Test.post.rules

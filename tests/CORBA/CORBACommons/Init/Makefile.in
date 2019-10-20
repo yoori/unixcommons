@@ -1,0 +1,8 @@
+@corbacombined_deps@
+
+sources := Combined.cpp
+target := CORBACombined
+test_command := $(srcdir)/Test.sh $(top_srcdir)/tests/CORBA/Data
+vg_test_command = $(test_command) $(vg_prefix)
+
+include $(top_srcdir)/tests/Test.post.rules

@@ -1,0 +1,5 @@
+@testintstubs_deps@
+
+corba_stub_idls := TestInt.idl
+
+@testintstubs_post@

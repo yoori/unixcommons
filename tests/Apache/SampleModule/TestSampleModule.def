@@ -1,0 +1,4 @@
+name=SampleModule
+so_files=SampleModule
+
+osbe_cxx_dep "ApacheAdapters"

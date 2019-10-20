@@ -1,0 +1,6 @@
+name=BLogic
+so_files=BLogic
+
+osbe_cxx_dep "SegmentorCommons"
+
+$unixcommons_def_initializer

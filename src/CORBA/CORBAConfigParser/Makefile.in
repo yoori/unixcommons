@@ -1,0 +1,7 @@
+@corbaconfigparser_deps@
+
+sources := \
+  CorbaConfigReader.cpp \
+  ParameterConfig.cpp \
+
+@corbaconfigparser_post@

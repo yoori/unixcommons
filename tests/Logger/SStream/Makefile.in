@@ -1,0 +1,6 @@
+@testsstream_deps@
+
+sources := Application.cpp
+target := TestSStream
+
+include $(top_srcdir)/tests/Test.post.rules

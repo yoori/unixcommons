@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema 
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
+  targetNamespace="http://www.adintelligence.net/AdServer/RepositoryConfiguration" 
+  xmlns="http://www.adintelligence.net/AdServer/RepositoryConfiguration" 
+  elementFormDefault="qualified" 
+  xml:lang="en" 
+  version="1.0">
+	<xsd:annotation>
+		<xsd:documentation>Repository service Configuration File, XML Schema</xsd:documentation>
+	</xsd:annotation>
+	<xsd:element name="RepositoryConfiguration">
+		<xsd:annotation>
+			<xsd:documentation></xsd:documentation>
+		</xsd:annotation>
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element name="Repository" type="RepositoryType"/>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+
+	<!-- Repository -->
+	<xsd:complexType name="RepositoryType">
+                <xsd:sequence>
+			<xsd:element name="CorbaConfig" type="CorbaConfigType">
+				<xsd:annotation>
+					<xsd:documentation>CorbaConfig.
+                                        </xsd:documentation>
+				</xsd:annotation>
+			</xsd:element>
+                </xsd:sequence>
+		<xsd:attribute name="dump-file" type="xsd:string" use="optional">
+			<xsd:annotation>
+				<xsd:documentation>File with content of Repository. Load at start. Save at exit.</xsd:documentation>
+			</xsd:annotation>
+		</xsd:attribute>
+		<xsd:attribute name="dump-schema" type="xsd:string" use="optional">
+			<xsd:annotation>
+				<xsd:documentation>Schema for dump-file.</xsd:documentation>
+			</xsd:annotation>
+		</xsd:attribute>
+	</xsd:complexType>
+	<!-- Repository ends -->
+
+	<!-- CorbaConfig -->
+	<xsd:complexType name="CorbaConfigType">
+                <xsd:sequence>
+			<xsd:element name="Endpoint" type="EndpointConfigType" minOccurs="0" maxOccurs="unbounded">
+				<xsd:annotation>
+					<xsd:documentation>Endpoint.
+                                        </xsd:documentation>
+				</xsd:annotation>
+			</xsd:element>
+                </xsd:sequence>
+		<xsd:attribute name="threading-pool" type="xsd:positiveInteger" use="required">
+			<xsd:annotation>
+				<xsd:documentation>Corba threading pool.</xsd:documentation>
+			</xsd:annotation>
+		</xsd:attribute>
+	</xsd:complexType>
+	<!-- CorbaConfig ends -->
+
+        <!-- EndpointConfig -->
+	<xsd:complexType name="EndpointConfigType">
+                <xsd:sequence>
+                        <xsd:element name="Secure" type="SecureParamsType" minOccurs="0" maxOccurs="1">
+				<xsd:annotation>
+					<xsd:documentation>
+                                          Endpoint secure params.
+                                        </xsd:documentation>
+				</xsd:annotation>
+			</xsd:element> 
+			<xsd:element name="Object" type="EndpointObjectType" minOccurs="0" maxOccurs="unbounded">
+				<xsd:annotation>
+					<xsd:documentation>
+                                          Endpoint.
+                                        </xsd:documentation>
+				</xsd:annotation>
+			</xsd:element>
+                </xsd:sequence>
+		<xsd:attribute name="host" type="xsd:string" use="required">
+			<xsd:annotation>
+				<xsd:documentation>host.</xsd:documentation>
+			</xsd:annotation>
+		</xsd:attribute>
+		<xsd:attribute name="port" type="xsd:positiveInteger" use="required">
+			<xsd:annotation>
+				<xsd:documentation>port.</xsd:documentation>
+			</xsd:annotation>
+		</xsd:attribute>
+	</xsd:complexType>
+        <!-- EndpointConfig -->
+
+        <!-- SecureParams -->
+	<xsd:complexType name="SecureParamsType">
+	        <xsd:attribute name="key" type="xsd:string" use="required">
+		        <xsd:annotation>
+			       <xsd:documentation>Name of file with secure key</xsd:documentation>
+			</xsd:annotation>
+		</xsd:attribute>
+	        <xsd:attribute name="certificates" type="xsd:string" use="required">
+		        <xsd:annotation>
+			       <xsd:documentation>
+                                 Name of files with certificate separated ';'
+                               </xsd:documentation>
+			</xsd:annotation>
+		</xsd:attribute>
+	        <xsd:attribute name="key-word" type="xsd:string" use="required">
+		        <xsd:annotation>
+			       <xsd:documentation>
+                                 Certificate password
+                               </xsd:documentation>
+			</xsd:annotation>
+		</xsd:attribute>
+	</xsd:complexType>
+	<!-- SecureParams ends -->
+
+        <!-- EndpointObject -->
+	<xsd:complexType name="EndpointObjectType">
+		<xsd:attribute name="servant" type="xsd:string" use="required">
+			<xsd:annotation>
+				<xsd:documentation></xsd:documentation>
+			</xsd:annotation>
+		</xsd:attribute>
+		<xsd:attribute name="name" type="xsd:string" use="required">
+			<xsd:annotation>
+				<xsd:documentation></xsd:documentation>
+			</xsd:annotation>
+		</xsd:attribute>
+	</xsd:complexType>
+        <!-- EndpointObject -->
+</xsd:schema>
+

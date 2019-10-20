@@ -1,0 +1,6 @@
+@segmentortestcommons_deps@
+
+sources := TextGenerator.cpp
+target := SegmentorTestCommons
+
+@segmentortestcommons_post@

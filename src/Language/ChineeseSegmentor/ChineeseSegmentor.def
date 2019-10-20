@@ -1,0 +1,8 @@
+name=ChineeseSegmentor
+so_files=ChineeseSegmentor
+
+osbe_cxx_dep "SegmentorCommons"
+osbe_cxx_dep "Stream"
+osbe_cxx_dep "NLPIR"
+
+$unixcommons_def_initializer

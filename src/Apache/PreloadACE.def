@@ -1,0 +1,6 @@
+name="Preload ACE"
+so_files=PreloadACE
+
+# Do not add 'osbe_cxx_dep "ACE"' here.
+
+$unixcommons_def_initializer

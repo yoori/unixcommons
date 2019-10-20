@@ -1,0 +1,7 @@
+# @file   dir.ac
+
+
+OSBE_CONFIG_FILE([Makefile])
+OSBE_CONFIG_SUBDIR([BLogic])
+OSBE_CONFIG_SUBDIR([SegmentorManager])
+OSBE_CONFIG_SUBDIR([SegmentorCommonTests])

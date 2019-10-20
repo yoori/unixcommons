@@ -1,0 +1,10 @@
+# @file   Makefile.in
+
+@koreansegmentor_deps@
+
+sources := \
+  Korean.cpp \
+  Klt.cpp \
+  Moran.cpp \
+
+@koreansegmentor_post@

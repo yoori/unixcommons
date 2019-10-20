@@ -1,0 +1,6 @@
+name=Logger
+so_files=Logger
+
+osbe_cxx_dep "Generics"
+
+$unixcommons_def_initializer

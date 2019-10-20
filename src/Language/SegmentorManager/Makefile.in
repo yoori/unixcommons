@@ -1,0 +1,6 @@
+# @file   Makefile.in
+
+
+@segmentormanager_deps@
+
+@segmentormanager_post@

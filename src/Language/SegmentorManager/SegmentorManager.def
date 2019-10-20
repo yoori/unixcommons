@@ -1,0 +1,6 @@
+name="SegmentorManager"
+
+osbe_cxx_dep "Stream"
+osbe_cxx_dep "SegmentorCommons"
+
+$unixcommons_def_initializer

@@ -1,0 +1,12 @@
+# @file   Makefile.in
+
+# 
+
+@testplainmap_deps@
+
+sources := Main.cpp
+target := TestPlainMap
+
+# @testplainmap_post@
+
+include $(top_srcdir)/tests/Test.post.rules

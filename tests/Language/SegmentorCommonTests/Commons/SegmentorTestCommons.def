@@ -1,0 +1,5 @@
+name="SegmentorTestCommons"
+so_files="SegmentorTestCommons"
+
+osbe_cxx_dep "String"
+osbe_cxx_dep "TestCommons"

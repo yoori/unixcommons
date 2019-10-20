@@ -1,0 +1,9 @@
+@testprocesslogger_deps@
+
+sources := Application.cpp
+target := TestProcessLogger
+common_arguments := -c 20000 -p $(top_builddir)/bin/RotateLog -T 1 -S 1 -t
+test_arguments = $(common_arguments) -L '$(tmp_dir)/$(target).`date`.log'
+vg_test_arguments = $(common_arguments) -L '$(tmp_dir)/$(target).`date`.vg.log'
+
+include $(top_srcdir)/tests/Test.post.rules

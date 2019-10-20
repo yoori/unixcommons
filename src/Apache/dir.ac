@@ -1,0 +1,7 @@
+# @file   dir.ac
+
+
+OSBE_CONFIG_FILE([Makefile])
+OSBE_CXX_DEF([ApacheModule], [ApacheModule.mk])
+OSBE_CXX_DEF([ApacheAdapters], [ApacheAdapters.mk])
+OSBE_CXX_DEF([PreloadACE], [PreloadACE.mk])

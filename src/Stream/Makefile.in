@@ -1,0 +1,13 @@
+# @file   Makefile.in
+
+
+@stream_deps@
+
+sources := \
+  BinaryStream.cpp \
+  BzlibStreams.cpp \
+  FileStreamBuf.cpp \
+  GzipStreams.cpp \
+  SocketStream.cpp \
+
+@stream_post@

@@ -1,0 +1,7 @@
+# @file   dir.ac
+
+
+OSBE_CONFIG_FILE([Makefile])
+OSBE_CONFIG_SUBDIR([ProxyInjector])
+OSBE_CONFIG_SUBDIR([SampleModule])
+OSBE_CONFIG_SUBDIR([SlowdownFilter])

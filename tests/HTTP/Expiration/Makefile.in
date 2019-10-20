@@ -1,0 +1,7 @@
+@testhttpexpiration_deps@
+
+sources := Main.cpp
+target := TestHttpExpiration
+apache_required := 1
+
+include $(top_srcdir)/tests/Test.post.rules

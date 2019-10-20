@@ -1,0 +1,7 @@
+name="Geo IP Mapper"
+so_files=IPMap
+
+osbe_cxx_dep "GeoIP"
+osbe_cxx_dep "Generics"
+
+$unixcommons_def_initializer

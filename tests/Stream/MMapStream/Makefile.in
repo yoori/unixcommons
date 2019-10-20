@@ -1,0 +1,7 @@
+@testmmapstream_deps@
+
+sources := Main.cpp
+target := TestMMapStream
+test_arguments = $(tmp_dir)/MMapStream.txt
+
+include $(top_srcdir)/tests/Test.post.rules

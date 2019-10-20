@@ -1,0 +1,14 @@
+# @file   dir.ac
+
+
+OSBE_CONFIG_FILE([Makefile])
+OSBE_CONFIG_SUBDIR([CrashCall])
+OSBE_CONFIG_SUBDIR([InfResolve])
+OSBE_CONFIG_SUBDIR([Init])
+OSBE_CONFIG_SUBDIR([Memory])
+OSBE_CONFIG_SUBDIR([ObjectPool])
+OSBE_CONFIG_SUBDIR([Overload])
+OSBE_CONFIG_SUBDIR([ProcessControl])
+OSBE_CONFIG_SUBDIR([SameProcess])
+OSBE_CONFIG_SUBDIR([Stats])
+OSBE_CONFIG_SUBDIR([Timeout])

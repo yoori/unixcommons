@@ -1,0 +1,6 @@
+@statstool_deps@
+
+sources := Application.cpp
+target := StatsTool
+
+@statstool_post@

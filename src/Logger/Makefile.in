@@ -1,0 +1,17 @@
+# @file   Makefile.in
+
+
+@logger_deps@
+
+sources := \
+  ActiveObjectCallback.cpp \
+  DescriptorLogger.cpp \
+  DistributorLogger.cpp \
+  FileLogger.cpp \
+  Logger.cpp \
+  ProcessLogger.cpp \
+  SimpleLogger.cpp \
+  StreamLogger.cpp \
+  Syslog.cpp \
+
+@logger_post@

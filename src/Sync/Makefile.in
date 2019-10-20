@@ -1,0 +1,6 @@
+@sync_deps@
+
+sources := \
+  Condition.cpp \
+
+@sync_post@

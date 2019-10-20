@@ -1,0 +1,6 @@
+@testutf8category_deps@
+
+sources := TestUTF8Category.cpp
+target := TestUTF8Category
+
+include $(top_srcdir)/tests/Test.post.rules

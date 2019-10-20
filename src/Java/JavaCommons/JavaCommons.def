@@ -1,0 +1,7 @@
+name="Java Commons"
+if [ "X$use_java" != "Xnone" ]; then
+  osbe_cxx_dep "Java"
+  osbe_cxx_dep "Stream"
+
+  $unixcommons_def_initializer
+fi

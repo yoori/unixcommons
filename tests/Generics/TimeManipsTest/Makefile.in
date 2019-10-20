@@ -1,0 +1,6 @@
+@testtimemanips_deps@
+
+sources := Main.cpp
+target := TestTimeManips
+
+include $(top_srcdir)/tests/Test.post.rules

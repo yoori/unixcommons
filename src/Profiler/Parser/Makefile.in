@@ -1,0 +1,9 @@
+# @file   Makefile.in
+
+
+@parser_deps@
+
+sources := Parser.cpp
+target := Parser
+
+@parser_post@

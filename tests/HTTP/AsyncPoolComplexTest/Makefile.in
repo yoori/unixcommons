@@ -1,0 +1,13 @@
+@testhttppoolcomplex_deps@
+
+sources := \
+  Main.cpp \
+  CommonClasses.cpp \
+  Tests.cpp \
+
+target := TestHttpPoolComplex
+test_command := $(srcdir)/check.sh
+vg_test_command = $(srcdir)/check.sh $(vg_prefix)
+apache_required := 1
+
+include $(top_srcdir)/tests/Test.post.rules

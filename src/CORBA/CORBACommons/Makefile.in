@@ -1,0 +1,28 @@
+# Makefile.in
+
+
+@corbacommons_deps@
+
+sources := \
+  AceLogger.cpp \
+  CorbaAdapters.cpp \
+  CorbaClientAdapter.cpp \
+  CorbaServerAdapter.cpp \
+  ProcessControlImpl.cpp \
+  Reactor.cpp \
+
+corba_skeleton_idls := \
+  CorbaObjectRef.idl \
+  ProcessControl.idl \
+  Stats.idl \
+
+corba_stub_idls := \
+  CorbaObjectRef.idl \
+  ProcessControl.idl \
+  Stats.idl \
+
+corba_includes := src/CORBA
+corba_idl_includes := src/CORBA
+includes := src/CORBA
+
+@corbacommons_post@

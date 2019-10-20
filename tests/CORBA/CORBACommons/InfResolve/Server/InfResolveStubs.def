@@ -1,0 +1,5 @@
+name=InfResolveStubs
+so_files=InfResolveStubs
+
+osbe_cxx_feature_dep "CORBA"
+osbe_cxx_dep "CORBACommons"

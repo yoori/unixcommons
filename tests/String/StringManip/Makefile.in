@@ -1,0 +1,6 @@
+@teststringmanip_deps@
+
+sources := Application.cpp
+target := TestStringManip
+
+include $(top_srcdir)/tests/Test.post.rules

@@ -1,0 +1,72 @@
+/**
+ * @file ProcessControl.idl
+
+ * Declares interface for process control object
+ */
+
+#ifndef CORBA_COMMONS_PROCESS_CONTROL_IDL
+#define CORBA_COMMONS_PROCESS_CONTROL_IDL
+
+module CORBACommons
+{
+  exception OutOfMemory
+  {
+  };
+
+  exception ImplementationError
+  {
+    string error;
+  };
+
+  /**
+   * Interface for process control object
+   * Allows remote control and status acquiring
+   */
+  abstract interface AProcessControl
+  {
+    enum ALIVE_STATUS
+    {
+      AS_NOT_ALIVE, // Dead or equal to dead
+      AS_ALIVE, // Alive but not ready to work
+      AS_READY // Alive and ready to work
+    };
+
+    /**
+     * Checks vitality of a process.
+     * @return Returns ALIVE_STATUS corresponding to process state
+     */
+    ALIVE_STATUS
+    is_alive();
+
+    /**
+     * Shutdowns a process.
+     * @param wait_for_completion If true, then wait for completion of pending
+     *   corba requests, otherwise terminate process immediately. 
+     */
+    oneway void
+    shutdown(in boolean wait_for_completion);
+
+    /**
+     * Receives extended status of the process
+     * @return process-supplied status string
+     */
+    string
+    comment() raises (OutOfMemory);
+
+    /**
+     * Performs specific action on remote object
+     * @param param_name action name or variable name to set
+     * @param param_value additional action data
+     * @return action result
+     */
+    string
+    control(in string param_name, in string param_value)
+      raises (OutOfMemory, ImplementationError);
+  };
+
+  interface IProcessControl : AProcessControl
+  {
+  };
+};
+
+#endif

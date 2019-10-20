@@ -1,0 +1,16 @@
+# @file   Makefile.in
+
+
+include Common.pre.rules
+
+target_directory_list := \
+  Analyzer \
+  AsciiStringManip \
+  RegEx \
+  StringManip \
+  SubString \
+  TextTemplate \
+  UnicodeNormalizer \
+  Utf8 \
+
+include $(osbe_builddir)/config/Direntry.post.rules

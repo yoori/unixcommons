@@ -1,0 +1,12 @@
+# @file   Makefile.in
+
+
+@xmlutility_deps@
+
+sources := \
+  DOMDocumentAdapter.cpp \
+  ParseErrorReporter.cpp \
+  StringManip.cpp \
+  Utility.cpp \
+
+@xmlutility_post@

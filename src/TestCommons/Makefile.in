@@ -1,0 +1,7 @@
+@checkcommons_deps@
+
+sources := \
+  Error.cpp \
+  Memory.cpp \
+
+@checkcommons_post@

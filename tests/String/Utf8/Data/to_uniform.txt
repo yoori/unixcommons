@@ -1,0 +1,1478 @@
+#0/1
+41 61
+42 62
+43 63
+44 64
+45 65
+46 66
+47 67
+48 68
+49 69
+4a 6a
+4b 6b
+4c 6c
+4d 6d
+4e 6e
+4f 6f
+50 70
+51 71
+52 72
+53 73
+54 74
+55 75
+56 76
+57 77
+58 78
+59 79
+5a 7a
+
+#c0/3
+#SPECIAL
+#c4.b0 69 cc.87
+#c5.89 ca.bc 6e
+#c5.bf 73
+#c7.b0 6a cc.8c
+#c8.ba e2.b1.a5
+#c8.be e2.b1.a6
+#ce.90 ce.b9 cc.88 cc.81
+#ce.b0 cf.85 cc.88 cc.81
+#d6.87 d5.a5 d6.82
+c2.b5 ce.bc
+c3.80 c3.a0
+c3.81 c3.a1
+c3.82 c3.a2
+c3.83 c3.a3
+c3.84 c3.a4
+c3.85 c3.a5
+c3.86 c3.a6
+c3.87 c3.a7
+c3.88 c3.a8
+c3.89 c3.a9
+c3.8a c3.aa
+c3.8b c3.ab
+c3.8c c3.ac
+c3.8d c3.ad
+c3.8e c3.ae
+c3.8f c3.af
+c3.90 c3.b0
+c3.91 c3.b1
+c3.92 c3.b2
+c3.93 c3.b3
+c3.94 c3.b4
+c3.95 c3.b5
+c3.96 c3.b6
+c3.98 c3.b8
+c3.99 c3.b9
+c3.9a c3.ba
+c3.9b c3.bb
+c3.9c c3.bc
+c3.9d c3.bd
+c3.9e c3.be
+c3.9f 73 73
+c4.80 c4.81
+c4.82 c4.83
+c4.84 c4.85
+c4.86 c4.87
+c4.88 c4.89
+c4.8a c4.8b
+c4.8c c4.8d
+c4.8e c4.8f
+c4.90 c4.91
+c4.92 c4.93
+c4.94 c4.95
+c4.96 c4.97
+c4.98 c4.99
+c4.9a c4.9b
+c4.9c c4.9d
+c4.9e c4.9f
+c4.a0 c4.a1
+c4.a2 c4.a3
+c4.a4 c4.a5
+c4.a6 c4.a7
+c4.a8 c4.a9
+c4.aa c4.ab
+c4.ac c4.ad
+c4.ae c4.af
+c4.b0 69 cc.87
+c4.b2 c4.b3
+c4.b4 c4.b5
+c4.b6 c4.b7
+c4.b9 c4.ba
+c4.bb c4.bc
+c4.bd c4.be
+c4.bf c5.80
+c5.81 c5.82
+c5.83 c5.84
+c5.85 c5.86
+c5.87 c5.88
+c5.89 ca.bc 6e
+c5.8a c5.8b
+c5.8c c5.8d
+c5.8e c5.8f
+c5.90 c5.91
+c5.92 c5.93
+c5.94 c5.95
+c5.96 c5.97
+c5.98 c5.99
+c5.9a c5.9b
+c5.9c c5.9d
+c5.9e c5.9f
+c5.a0 c5.a1
+c5.a2 c5.a3
+c5.a4 c5.a5
+c5.a6 c5.a7
+c5.a8 c5.a9
+c5.aa c5.ab
+c5.ac c5.ad
+c5.ae c5.af
+c5.b0 c5.b1
+c5.b2 c5.b3
+c5.b4 c5.b5
+c5.b6 c5.b7
+c5.b8 c3.bf
+c5.b9 c5.ba
+c5.bb c5.bc
+c5.bd c5.be
+c5.bf 73
+c6.81 c9.93
+c6.82 c6.83
+c6.84 c6.85
+c6.86 c9.94
+c6.87 c6.88
+c6.89 c9.96
+c6.8a c9.97
+c6.8b c6.8c
+c6.8e c7.9d
+c6.8f c9.99
+c6.90 c9.9b
+c6.91 c6.92
+c6.93 c9.a0
+c6.94 c9.a3
+c6.96 c9.a9
+c6.97 c9.a8
+c6.98 c6.99
+c6.9c c9.af
+c6.9d c9.b2
+c6.9f c9.b5
+c6.a0 c6.a1
+c6.a2 c6.a3
+c6.a4 c6.a5
+c6.a6 ca.80
+c6.a7 c6.a8
+c6.a9 ca.83
+c6.ac c6.ad
+c6.ae ca.88
+c6.af c6.b0
+c6.b1 ca.8a
+c6.b2 ca.8b
+c6.b3 c6.b4
+c6.b5 c6.b6
+c6.b7 ca.92
+c6.b8 c6.b9
+c6.bc c6.bd
+c7.84 c7.86
+c7.85 c7.86
+c7.87 c7.89
+c7.88 c7.89
+c7.8a c7.8c
+c7.8b c7.8c
+c7.8d c7.8e
+c7.8f c7.90
+c7.91 c7.92
+c7.93 c7.94
+c7.95 c7.96
+c7.97 c7.98
+c7.99 c7.9a
+c7.9b c7.9c
+c7.9e c7.9f
+c7.a0 c7.a1
+c7.a2 c7.a3
+c7.a4 c7.a5
+c7.a6 c7.a7
+c7.a8 c7.a9
+c7.aa c7.ab
+c7.ac c7.ad
+c7.ae c7.af
+c7.b0 6a cc.8c
+c7.b1 c7.b3
+c7.b2 c7.b3
+c7.b4 c7.b5
+c7.b6 c6.95
+c7.b7 c6.bf
+c7.b8 c7.b9
+c7.ba c7.bb
+c7.bc c7.bd
+c7.be c7.bf
+c8.80 c8.81
+c8.82 c8.83
+c8.84 c8.85
+c8.86 c8.87
+c8.88 c8.89
+c8.8a c8.8b
+c8.8c c8.8d
+c8.8e c8.8f
+c8.90 c8.91
+c8.92 c8.93
+c8.94 c8.95
+c8.96 c8.97
+c8.98 c8.99
+c8.9a c8.9b
+c8.9c c8.9d
+c8.9e c8.9f
+c8.a0 c6.9e
+c8.a2 c8.a3
+c8.a4 c8.a5
+c8.a6 c8.a7
+c8.a8 c8.a9
+c8.aa c8.ab
+c8.ac c8.ad
+c8.ae c8.af
+c8.b0 c8.b1
+c8.b2 c8.b3
+c8.ba e2.b1.a5
+c8.bb c8.bc
+c8.bd c6.9a
+c8.be e2.b1.a6
+c9.81 c9.82
+c9.83 c6.80
+c9.84 ca.89
+c9.85 ca.8c
+c9.86 c9.87
+c9.88 c9.89
+c9.8a c9.8b
+c9.8c c9.8d
+c9.8e c9.8f
+cd.85 ce.b9
+cd.b0 cd.b1
+cd.b2 cd.b3
+cd.b6 cd.b7
+cd.bf cf.b3
+ce.86 ce.ac
+ce.88 ce.ad
+ce.89 ce.ae
+ce.8a ce.af
+ce.8c cf.8c
+ce.8e cf.8d
+ce.8f cf.8e
+ce.90 ce.b9 cc.88 cc.81
+ce.91 ce.b1
+ce.92 ce.b2
+ce.93 ce.b3
+ce.94 ce.b4
+ce.95 ce.b5
+ce.96 ce.b6
+ce.97 ce.b7
+ce.98 ce.b8
+ce.99 ce.b9
+ce.9a ce.ba
+ce.9b ce.bb
+ce.9c ce.bc
+ce.9d ce.bd
+ce.9e ce.be
+ce.9f ce.bf
+ce.a0 cf.80
+ce.a1 cf.81
+ce.a3 cf.83
+ce.a4 cf.84
+ce.a5 cf.85
+ce.a6 cf.86
+ce.a7 cf.87
+ce.a8 cf.88
+ce.a9 cf.89
+ce.aa cf.8a
+ce.ab cf.8b
+ce.b0 cf.85 cc.88 cc.81
+cf.82 cf.83
+cf.8f cf.97
+cf.90 ce.b2
+cf.91 ce.b8
+cf.95 cf.86
+cf.96 cf.80
+cf.98 cf.99
+cf.9a cf.9b
+cf.9c cf.9d
+cf.9e cf.9f
+cf.a0 cf.a1
+cf.a2 cf.a3
+cf.a4 cf.a5
+cf.a6 cf.a7
+cf.a8 cf.a9
+cf.aa cf.ab
+cf.ac cf.ad
+cf.ae cf.af
+cf.b0 ce.ba
+cf.b1 cf.81
+cf.b4 ce.b8
+cf.b5 ce.b5
+cf.b7 cf.b8
+cf.b9 cf.b2
+cf.ba cf.bb
+cf.bd cd.bb
+cf.be cd.bc
+cf.bf cd.bd
+d0.80 d1.90
+d0.81 d1.91
+d0.82 d1.92
+d0.83 d1.93
+d0.84 d1.94
+d0.85 d1.95
+d0.86 d1.96
+d0.87 d1.97
+d0.88 d1.98
+d0.89 d1.99
+d0.8a d1.9a
+d0.8b d1.9b
+d0.8c d1.9c
+d0.8d d1.9d
+d0.8e d1.9e
+d0.8f d1.9f
+d0.90 d0.b0
+d0.91 d0.b1
+d0.92 d0.b2
+d0.93 d0.b3
+d0.94 d0.b4
+d0.95 d0.b5
+d0.96 d0.b6
+d0.97 d0.b7
+d0.98 d0.b8
+d0.99 d0.b9
+d0.9a d0.ba
+d0.9b d0.bb
+d0.9c d0.bc
+d0.9d d0.bd
+d0.9e d0.be
+d0.9f d0.bf
+d0.a0 d1.80
+d0.a1 d1.81
+d0.a2 d1.82
+d0.a3 d1.83
+d0.a4 d1.84
+d0.a5 d1.85
+d0.a6 d1.86
+d0.a7 d1.87
+d0.a8 d1.88
+d0.a9 d1.89
+d0.aa d1.8a
+d0.ab d1.8b
+d0.ac d1.8c
+d0.ad d1.8d
+d0.ae d1.8e
+d0.af d1.8f
+d1.a0 d1.a1
+d1.a2 d1.a3
+d1.a4 d1.a5
+d1.a6 d1.a7
+d1.a8 d1.a9
+d1.aa d1.ab
+d1.ac d1.ad
+d1.ae d1.af
+d1.b0 d1.b1
+d1.b2 d1.b3
+d1.b4 d1.b5
+d1.b6 d1.b7
+d1.b8 d1.b9
+d1.ba d1.bb
+d1.bc d1.bd
+d1.be d1.bf
+d2.80 d2.81
+d2.8a d2.8b
+d2.8c d2.8d
+d2.8e d2.8f
+d2.90 d2.91
+d2.92 d2.93
+d2.94 d2.95
+d2.96 d2.97
+d2.98 d2.99
+d2.9a d2.9b
+d2.9c d2.9d
+d2.9e d2.9f
+d2.a0 d2.a1
+d2.a2 d2.a3
+d2.a4 d2.a5
+d2.a6 d2.a7
+d2.a8 d2.a9
+d2.aa d2.ab
+d2.ac d2.ad
+d2.ae d2.af
+d2.b0 d2.b1
+d2.b2 d2.b3
+d2.b4 d2.b5
+d2.b6 d2.b7
+d2.b8 d2.b9
+d2.ba d2.bb
+d2.bc d2.bd
+d2.be d2.bf
+d3.80 d3.8f
+d3.81 d3.82
+d3.83 d3.84
+d3.85 d3.86
+d3.87 d3.88
+d3.89 d3.8a
+d3.8b d3.8c
+d3.8d d3.8e
+d3.90 d3.91
+d3.92 d3.93
+d3.94 d3.95
+d3.96 d3.97
+d3.98 d3.99
+d3.9a d3.9b
+d3.9c d3.9d
+d3.9e d3.9f
+d3.a0 d3.a1
+d3.a2 d3.a3
+d3.a4 d3.a5
+d3.a6 d3.a7
+d3.a8 d3.a9
+d3.aa d3.ab
+d3.ac d3.ad
+d3.ae d3.af
+d3.b0 d3.b1
+d3.b2 d3.b3
+d3.b4 d3.b5
+d3.b6 d3.b7
+d3.b8 d3.b9
+d3.ba d3.bb
+d3.bc d3.bd
+d3.be d3.bf
+d4.80 d4.81
+d4.82 d4.83
+d4.84 d4.85
+d4.86 d4.87
+d4.88 d4.89
+d4.8a d4.8b
+d4.8c d4.8d
+d4.8e d4.8f
+d4.90 d4.91
+d4.92 d4.93
+d4.94 d4.95
+d4.96 d4.97
+d4.98 d4.99
+d4.9a d4.9b
+d4.9c d4.9d
+d4.9e d4.9f
+d4.a0 d4.a1
+d4.a2 d4.a3
+d4.a4 d4.a5
+d4.a6 d4.a7
+d4.a8 d4.a9
+d4.aa d4.ab
+d4.ac d4.ad
+d4.ae d4.af
+d4.b1 d5.a1
+d4.b2 d5.a2
+d4.b3 d5.a3
+d4.b4 d5.a4
+d4.b5 d5.a5
+d4.b6 d5.a6
+d4.b7 d5.a7
+d4.b8 d5.a8
+d4.b9 d5.a9
+d4.ba d5.aa
+d4.bb d5.ab
+d4.bc d5.ac
+d4.bd d5.ad
+d4.be d5.ae
+d4.bf d5.af
+d5.80 d5.b0
+d5.81 d5.b1
+d5.82 d5.b2
+d5.83 d5.b3
+d5.84 d5.b4
+d5.85 d5.b5
+d5.86 d5.b6
+d5.87 d5.b7
+d5.88 d5.b8
+d5.89 d5.b9
+d5.8a d5.ba
+d5.8b d5.bb
+d5.8c d5.bc
+d5.8d d5.bd
+d5.8e d5.be
+d5.8f d5.bf
+d5.90 d6.80
+d5.91 d6.81
+d5.92 d6.82
+d5.93 d6.83
+d5.94 d6.84
+d5.95 d6.85
+d5.96 d6.86
+d6.87 d5.a5 d6.82
+
+#e1.82/15
+e1.82.a0 e2.b4.80
+e1.82.a1 e2.b4.81
+e1.82.a2 e2.b4.82
+e1.82.a3 e2.b4.83
+e1.82.a4 e2.b4.84
+e1.82.a5 e2.b4.85
+e1.82.a6 e2.b4.86
+e1.82.a7 e2.b4.87
+e1.82.a8 e2.b4.88
+e1.82.a9 e2.b4.89
+e1.82.aa e2.b4.8a
+e1.82.ab e2.b4.8b
+e1.82.ac e2.b4.8c
+e1.82.ad e2.b4.8d
+e1.82.ae e2.b4.8e
+e1.82.af e2.b4.8f
+e1.82.b0 e2.b4.90
+e1.82.b1 e2.b4.91
+e1.82.b2 e2.b4.92
+e1.82.b3 e2.b4.93
+e1.82.b4 e2.b4.94
+e1.82.b5 e2.b4.95
+e1.82.b6 e2.b4.96
+e1.82.b7 e2.b4.97
+e1.82.b8 e2.b4.98
+e1.82.b9 e2.b4.99
+e1.82.ba e2.b4.9a
+e1.82.bb e2.b4.9b
+e1.82.bc e2.b4.9c
+e1.82.bd e2.b4.9d
+e1.82.be e2.b4.9e
+e1.82.bf e2.b4.9f
+e1.83.80 e2.b4.a0
+e1.83.81 e2.b4.a1
+e1.83.82 e2.b4.a2
+e1.83.83 e2.b4.a3
+e1.83.84 e2.b4.a4
+e1.83.85 e2.b4.a5
+e1.83.87 e2.b4.a7
+e1.83.8d e2.b4.ad
+
+#e1.8f.b8/21
+e1.8f.b8 e1.8f.b0
+e1.8f.b9 e1.8f.b1
+e1.8f.ba e1.8f.b2
+e1.8f.bb e1.8f.b3
+e1.8f.bc e1.8f.b4
+e1.8f.bd e1.8f.b5
+
+#e1.b8/13
+#SPECIAL
+#e1.ba.9e 73 73
+#e1.bd.90 cf.85 cc.93
+#e1.bd.92 cf.85 cc.93 cc.80
+#e1.bd.94 cf.85 cc.93 cc.81
+#e1.bd.96 cf.85 cc.93 cd.82
+#e1.be.80 e1.bc.80 ce.b9
+#e1.be.81 e1.bc.81 ce.b9
+#e1.be.82 e1.bc.82 ce.b9
+#e1.be.83 e1.bc.83 ce.b9
+#e1.be.84 e1.bc.84 ce.b9
+#e1.be.85 e1.bc.85 ce.b9
+#e1.be.86 e1.bc.86 ce.b9
+#e1.be.87 e1.bc.87 ce.b9
+#e1.be.88 e1.bc.80 ce.b9
+#e1.be.89 e1.bc.81 ce.b9
+#e1.be.8a e1.bc.82 ce.b9
+#e1.be.8b e1.bc.83 ce.b9
+#e1.be.8c e1.bc.84 ce.b9
+#e1.be.8d e1.bc.85 ce.b9
+#e1.be.8e e1.bc.86 ce.b9
+#e1.be.8f e1.bc.87 ce.b9
+#e1.be.90 e1.bc.a0 ce.b9
+#e1.be.91 e1.bc.a1 ce.b9
+#e1.be.92 e1.bc.a2 ce.b9
+#e1.be.93 e1.bc.a3 ce.b9
+#e1.be.94 e1.bc.a4 ce.b9
+#e1.be.95 e1.bc.a5 ce.b9
+#e1.be.96 e1.bc.a6 ce.b9
+#e1.be.97 e1.bc.a7 ce.b9
+#e1.be.98 e1.bc.a0 ce.b9
+#e1.be.99 e1.bc.a1 ce.b9
+#e1.be.9a e1.bc.a2 ce.b9
+#e1.be.9b e1.bc.a3 ce.b9
+#e1.be.9c e1.bc.a4 ce.b9
+#e1.be.9d e1.bc.a5 ce.b9
+#e1.be.9e e1.bc.a6 ce.b9
+#e1.be.9f e1.bc.a7 ce.b9
+#e1.be.a0 e1.bd.a0 ce.b9
+#e1.be.a1 e1.bd.a1 ce.b9
+#e1.be.a2 e1.bd.a2 ce.b9
+#e1.be.a3 e1.bd.a3 ce.b9
+#e1.be.a4 e1.bd.a4 ce.b9
+#e1.be.a5 e1.bd.a5 ce.b9
+#e1.be.a6 e1.bd.a6 ce.b9
+#e1.be.a7 e1.bd.a7 ce.b9
+#e1.be.a8 e1.bd.a0 ce.b9
+#e1.be.a9 e1.bd.a1 ce.b9
+#e1.be.aa e1.bd.a2 ce.b9
+#e1.be.ab e1.bd.a3 ce.b9
+#e1.be.ac e1.bd.a4 ce.b9
+#e1.be.ad e1.bd.a5 ce.b9
+#e1.be.ae e1.bd.a6 ce.b9
+#e1.be.af e1.bd.a7 ce.b9
+#e1.be.b2 e1.bd.b0 ce.b9
+#e1.be.b3 ce.b1 ce.b9
+#e1.be.b4 ce.ac ce.b9
+#e1.be.b6 ce.b1 cd.82
+#e1.be.b7 ce.b1 cd.82 ce.b9
+#e1.be.bc ce.b1 ce.b9
+#e1.be.be ce.b9
+#e1.bf.82 e1.bd.b4 ce.b9
+#e1.bf.83 ce.b7 ce.b9
+#e1.bf.84 ce.ae ce.b9
+#e1.bf.86 ce.b7 cd.82
+#e1.bf.87 ce.b7 cd.82 ce.b9
+#e1.bf.8c ce.b7 ce.b9
+#e1.bf.92 ce.b9 cc.88 cc.80
+#e1.bf.93 ce.b9 cc.88 cc.81
+#e1.bf.96 ce.b9 cd.82
+#e1.bf.97 ce.b9 cc.88 cd.82
+#e1.bf.a2 cf.85 cc.88 cc.80
+#e1.bf.a3 cf.85 cc.88 cc.81
+#e1.bf.a4 cf.81 cc.93
+#e1.bf.a6 cf.85 cd.82
+#e1.bf.a7 cf.85 cc.88 cd.82
+#e1.bf.b2 e1.bd.bc ce.b9
+#e1.bf.b3 cf.89 ce.b9
+#e1.bf.b4 cf.8e ce.b9
+#e1.bf.b6 cf.89 cd.82
+#e1.bf.b7 cf.89 cd.82 ce.b9
+#e1.bf.bc cf.89 ce.b9
+e1.b8.80 e1.b8.81
+e1.b8.82 e1.b8.83
+e1.b8.84 e1.b8.85
+e1.b8.86 e1.b8.87
+e1.b8.88 e1.b8.89
+e1.b8.8a e1.b8.8b
+e1.b8.8c e1.b8.8d
+e1.b8.8e e1.b8.8f
+e1.b8.90 e1.b8.91
+e1.b8.92 e1.b8.93
+e1.b8.94 e1.b8.95
+e1.b8.96 e1.b8.97
+e1.b8.98 e1.b8.99
+e1.b8.9a e1.b8.9b
+e1.b8.9c e1.b8.9d
+e1.b8.9e e1.b8.9f
+e1.b8.a0 e1.b8.a1
+e1.b8.a2 e1.b8.a3
+e1.b8.a4 e1.b8.a5
+e1.b8.a6 e1.b8.a7
+e1.b8.a8 e1.b8.a9
+e1.b8.aa e1.b8.ab
+e1.b8.ac e1.b8.ad
+e1.b8.ae e1.b8.af
+e1.b8.b0 e1.b8.b1
+e1.b8.b2 e1.b8.b3
+e1.b8.b4 e1.b8.b5
+e1.b8.b6 e1.b8.b7
+e1.b8.b8 e1.b8.b9
+e1.b8.ba e1.b8.bb
+e1.b8.bc e1.b8.bd
+e1.b8.be e1.b8.bf
+e1.b9.80 e1.b9.81
+e1.b9.82 e1.b9.83
+e1.b9.84 e1.b9.85
+e1.b9.86 e1.b9.87
+e1.b9.88 e1.b9.89
+e1.b9.8a e1.b9.8b
+e1.b9.8c e1.b9.8d
+e1.b9.8e e1.b9.8f
+e1.b9.90 e1.b9.91
+e1.b9.92 e1.b9.93
+e1.b9.94 e1.b9.95
+e1.b9.96 e1.b9.97
+e1.b9.98 e1.b9.99
+e1.b9.9a e1.b9.9b
+e1.b9.9c e1.b9.9d
+e1.b9.9e e1.b9.9f
+e1.b9.a0 e1.b9.a1
+e1.b9.a2 e1.b9.a3
+e1.b9.a4 e1.b9.a5
+e1.b9.a6 e1.b9.a7
+e1.b9.a8 e1.b9.a9
+e1.b9.aa e1.b9.ab
+e1.b9.ac e1.b9.ad
+e1.b9.ae e1.b9.af
+e1.b9.b0 e1.b9.b1
+e1.b9.b2 e1.b9.b3
+e1.b9.b4 e1.b9.b5
+e1.b9.b6 e1.b9.b7
+e1.b9.b8 e1.b9.b9
+e1.b9.ba e1.b9.bb
+e1.b9.bc e1.b9.bd
+e1.b9.be e1.b9.bf
+e1.ba.80 e1.ba.81
+e1.ba.82 e1.ba.83
+e1.ba.84 e1.ba.85
+e1.ba.86 e1.ba.87
+e1.ba.88 e1.ba.89
+e1.ba.8a e1.ba.8b
+e1.ba.8c e1.ba.8d
+e1.ba.8e e1.ba.8f
+e1.ba.90 e1.ba.91
+e1.ba.92 e1.ba.93
+e1.ba.94 e1.ba.95
+e1.ba.96 68 cc.b1
+e1.ba.97 74 cc.88
+e1.ba.98 77 cc.8a
+e1.ba.99 79 cc.8a
+e1.ba.9a 61 ca.be
+e1.ba.9b e1.b9.a1
+e1.ba.9e 73 73
+e1.ba.a0 e1.ba.a1
+e1.ba.a2 e1.ba.a3
+e1.ba.a4 e1.ba.a5
+e1.ba.a6 e1.ba.a7
+e1.ba.a8 e1.ba.a9
+e1.ba.aa e1.ba.ab
+e1.ba.ac e1.ba.ad
+e1.ba.ae e1.ba.af
+e1.ba.b0 e1.ba.b1
+e1.ba.b2 e1.ba.b3
+e1.ba.b4 e1.ba.b5
+e1.ba.b6 e1.ba.b7
+e1.ba.b8 e1.ba.b9
+e1.ba.ba e1.ba.bb
+e1.ba.bc e1.ba.bd
+e1.ba.be e1.ba.bf
+e1.bb.80 e1.bb.81
+e1.bb.82 e1.bb.83
+e1.bb.84 e1.bb.85
+e1.bb.86 e1.bb.87
+e1.bb.88 e1.bb.89
+e1.bb.8a e1.bb.8b
+e1.bb.8c e1.bb.8d
+e1.bb.8e e1.bb.8f
+e1.bb.90 e1.bb.91
+e1.bb.92 e1.bb.93
+e1.bb.94 e1.bb.95
+e1.bb.96 e1.bb.97
+e1.bb.98 e1.bb.99
+e1.bb.9a e1.bb.9b
+e1.bb.9c e1.bb.9d
+e1.bb.9e e1.bb.9f
+e1.bb.a0 e1.bb.a1
+e1.bb.a2 e1.bb.a3
+e1.bb.a4 e1.bb.a5
+e1.bb.a6 e1.bb.a7
+e1.bb.a8 e1.bb.a9
+e1.bb.aa e1.bb.ab
+e1.bb.ac e1.bb.ad
+e1.bb.ae e1.bb.af
+e1.bb.b0 e1.bb.b1
+e1.bb.b2 e1.bb.b3
+e1.bb.b4 e1.bb.b5
+e1.bb.b6 e1.bb.b7
+e1.bb.b8 e1.bb.b9
+e1.bb.ba e1.bb.bb
+e1.bb.bc e1.bb.bd
+e1.bb.be e1.bb.bf
+e1.bc.88 e1.bc.80
+e1.bc.89 e1.bc.81
+e1.bc.8a e1.bc.82
+e1.bc.8b e1.bc.83
+e1.bc.8c e1.bc.84
+e1.bc.8d e1.bc.85
+e1.bc.8e e1.bc.86
+e1.bc.8f e1.bc.87
+e1.bc.98 e1.bc.90
+e1.bc.99 e1.bc.91
+e1.bc.9a e1.bc.92
+e1.bc.9b e1.bc.93
+e1.bc.9c e1.bc.94
+e1.bc.9d e1.bc.95
+e1.bc.a8 e1.bc.a0
+e1.bc.a9 e1.bc.a1
+e1.bc.aa e1.bc.a2
+e1.bc.ab e1.bc.a3
+e1.bc.ac e1.bc.a4
+e1.bc.ad e1.bc.a5
+e1.bc.ae e1.bc.a6
+e1.bc.af e1.bc.a7
+e1.bc.b8 e1.bc.b0
+e1.bc.b9 e1.bc.b1
+e1.bc.ba e1.bc.b2
+e1.bc.bb e1.bc.b3
+e1.bc.bc e1.bc.b4
+e1.bc.bd e1.bc.b5
+e1.bc.be e1.bc.b6
+e1.bc.bf e1.bc.b7
+e1.bd.88 e1.bd.80
+e1.bd.89 e1.bd.81
+e1.bd.8a e1.bd.82
+e1.bd.8b e1.bd.83
+e1.bd.8c e1.bd.84
+e1.bd.8d e1.bd.85
+e1.bd.90 cf.85 cc.93
+e1.bd.92 cf.85 cc.93 cc.80
+e1.bd.94 cf.85 cc.93 cc.81
+e1.bd.96 cf.85 cc.93 cd.82
+e1.bd.99 e1.bd.91
+e1.bd.9b e1.bd.93
+e1.bd.9d e1.bd.95
+e1.bd.9f e1.bd.97
+e1.bd.a8 e1.bd.a0
+e1.bd.a9 e1.bd.a1
+e1.bd.aa e1.bd.a2
+e1.bd.ab e1.bd.a3
+e1.bd.ac e1.bd.a4
+e1.bd.ad e1.bd.a5
+e1.bd.ae e1.bd.a6
+e1.bd.af e1.bd.a7
+e1.be.80 e1.bc.80 ce.b9
+e1.be.81 e1.bc.81 ce.b9
+e1.be.82 e1.bc.82 ce.b9
+e1.be.83 e1.bc.83 ce.b9
+e1.be.84 e1.bc.84 ce.b9
+e1.be.85 e1.bc.85 ce.b9
+e1.be.86 e1.bc.86 ce.b9
+e1.be.87 e1.bc.87 ce.b9
+e1.be.88 e1.bc.80 ce.b9
+e1.be.89 e1.bc.81 ce.b9
+e1.be.8a e1.bc.82 ce.b9
+e1.be.8b e1.bc.83 ce.b9
+e1.be.8c e1.bc.84 ce.b9
+e1.be.8d e1.bc.85 ce.b9
+e1.be.8e e1.bc.86 ce.b9
+e1.be.8f e1.bc.87 ce.b9
+e1.be.90 e1.bc.a0 ce.b9
+e1.be.91 e1.bc.a1 ce.b9
+e1.be.92 e1.bc.a2 ce.b9
+e1.be.93 e1.bc.a3 ce.b9
+e1.be.94 e1.bc.a4 ce.b9
+e1.be.95 e1.bc.a5 ce.b9
+e1.be.96 e1.bc.a6 ce.b9
+e1.be.97 e1.bc.a7 ce.b9
+e1.be.98 e1.bc.a0 ce.b9
+e1.be.99 e1.bc.a1 ce.b9
+e1.be.9a e1.bc.a2 ce.b9
+e1.be.9b e1.bc.a3 ce.b9
+e1.be.9c e1.bc.a4 ce.b9
+e1.be.9d e1.bc.a5 ce.b9
+e1.be.9e e1.bc.a6 ce.b9
+e1.be.9f e1.bc.a7 ce.b9
+e1.be.a0 e1.bd.a0 ce.b9
+e1.be.a1 e1.bd.a1 ce.b9
+e1.be.a2 e1.bd.a2 ce.b9
+e1.be.a3 e1.bd.a3 ce.b9
+e1.be.a4 e1.bd.a4 ce.b9
+e1.be.a5 e1.bd.a5 ce.b9
+e1.be.a6 e1.bd.a6 ce.b9
+e1.be.a7 e1.bd.a7 ce.b9
+e1.be.a8 e1.bd.a0 ce.b9
+e1.be.a9 e1.bd.a1 ce.b9
+e1.be.aa e1.bd.a2 ce.b9
+e1.be.ab e1.bd.a3 ce.b9
+e1.be.ac e1.bd.a4 ce.b9
+e1.be.ad e1.bd.a5 ce.b9
+e1.be.ae e1.bd.a6 ce.b9
+e1.be.af e1.bd.a7 ce.b9
+e1.be.b2 e1.bd.b0 ce.b9
+e1.be.b3 ce.b1 ce.b9
+e1.be.b4 ce.ac ce.b9
+e1.be.b6 ce.b1 cd.82
+e1.be.b7 ce.b1 cd.82 ce.b9
+e1.be.b8 e1.be.b0
+e1.be.b9 e1.be.b1
+e1.be.ba e1.bd.b0
+e1.be.bb e1.bd.b1
+e1.be.bc ce.b1 ce.b9
+e1.be.be ce.b9
+e1.bf.82 e1.bd.b4 ce.b9
+e1.bf.83 ce.b7 ce.b9
+e1.bf.84 ce.ae ce.b9
+e1.bf.86 ce.b7 cd.82
+e1.bf.87 ce.b7 cd.82 ce.b9
+e1.bf.88 e1.bd.b2
+e1.bf.89 e1.bd.b3
+e1.bf.8a e1.bd.b4
+e1.bf.8b e1.bd.b5
+e1.bf.8c ce.b7 ce.b9
+e1.bf.92 ce.b9 cc.88 cc.80
+e1.bf.93 ce.b9 cc.88 cc.81
+e1.bf.96 ce.b9 cd.82
+e1.bf.97 ce.b9 cc.88 cd.82
+e1.bf.98 e1.bf.90
+e1.bf.99 e1.bf.91
+e1.bf.9a e1.bd.b6
+e1.bf.9b e1.bd.b7
+e1.bf.a2 cf.85 cc.88 cc.80
+e1.bf.a3 cf.85 cc.88 cc.81
+e1.bf.a4 cf.81 cc.93
+e1.bf.a6 cf.85 cd.82
+e1.bf.a7 cf.85 cc.88 cd.82
+e1.bf.a8 e1.bf.a0
+e1.bf.a9 e1.bf.a1
+e1.bf.aa e1.bd.ba
+e1.bf.ab e1.bd.bb
+e1.bf.ac e1.bf.a5
+e1.bf.b2 e1.bd.bc ce.b9
+e1.bf.b3 cf.89 ce.b9
+e1.bf.b4 cf.8e ce.b9
+e1.bf.b6 cf.89 cd.82
+e1.bf.b7 cf.89 cd.82 ce.b9
+e1.bf.b8 e1.bd.b8
+e1.bf.b9 e1.bd.b9
+e1.bf.ba e1.bd.bc
+e1.bf.bb e1.bd.bd
+e1.bf.bc cf.89 ce.b9
+
+#e2.84/14
+#SPECIAL
+#e2.84.a6 cf.89
+#e2.84.aa 6b
+#e2.84.ab c3.a5
+e2.84.a6 cf.89
+e2.84.aa 6b
+e2.84.ab c3.a5
+e2.84.b2 e2.85.8e
+e2.85.a0 e2.85.b0
+e2.85.a1 e2.85.b1
+e2.85.a2 e2.85.b2
+e2.85.a3 e2.85.b3
+e2.85.a4 e2.85.b4
+e2.85.a5 e2.85.b5
+e2.85.a6 e2.85.b6
+e2.85.a7 e2.85.b7
+e2.85.a8 e2.85.b8
+e2.85.a9 e2.85.b9
+e2.85.aa e2.85.ba
+e2.85.ab e2.85.bb
+e2.85.ac e2.85.bc
+e2.85.ad e2.85.bd
+e2.85.ae e2.85.be
+e2.85.af e2.85.bf
+e2.86.83 e2.86.84
+
+#e2.92/15
+e2.92.b6 e2.93.90
+e2.92.b7 e2.93.91
+e2.92.b8 e2.93.92
+e2.92.b9 e2.93.93
+e2.92.ba e2.93.94
+e2.92.bb e2.93.95
+e2.92.bc e2.93.96
+e2.92.bd e2.93.97
+e2.92.be e2.93.98
+e2.92.bf e2.93.99
+e2.93.80 e2.93.9a
+e2.93.81 e2.93.9b
+e2.93.82 e2.93.9c
+e2.93.83 e2.93.9d
+e2.93.84 e2.93.9e
+e2.93.85 e2.93.9f
+e2.93.86 e2.93.a0
+e2.93.87 e2.93.a1
+e2.93.88 e2.93.a2
+e2.93.89 e2.93.a3
+e2.93.8a e2.93.a4
+e2.93.8b e2.93.a5
+e2.93.8c e2.93.a6
+e2.93.8d e2.93.a7
+e2.93.8e e2.93.a8
+e2.93.8f e2.93.a9
+
+#e2.b0/14
+#SPECIAL
+#e2.b1.a2 c9.ab
+#e2.b1.a4 c9.bd
+#e2.b1.ad c9.91
+#e2.b1.ae c9.b1
+#e2.b1.af c9.90
+#e2.b1.b0 c9.92
+#e2.b1.be c8.bf
+#e2.b1.bf c9.80
+e2.b0.80 e2.b0.b0
+e2.b0.81 e2.b0.b1
+e2.b0.82 e2.b0.b2
+e2.b0.83 e2.b0.b3
+e2.b0.84 e2.b0.b4
+e2.b0.85 e2.b0.b5
+e2.b0.86 e2.b0.b6
+e2.b0.87 e2.b0.b7
+e2.b0.88 e2.b0.b8
+e2.b0.89 e2.b0.b9
+e2.b0.8a e2.b0.ba
+e2.b0.8b e2.b0.bb
+e2.b0.8c e2.b0.bc
+e2.b0.8d e2.b0.bd
+e2.b0.8e e2.b0.be
+e2.b0.8f e2.b0.bf
+e2.b0.90 e2.b1.80
+e2.b0.91 e2.b1.81
+e2.b0.92 e2.b1.82
+e2.b0.93 e2.b1.83
+e2.b0.94 e2.b1.84
+e2.b0.95 e2.b1.85
+e2.b0.96 e2.b1.86
+e2.b0.97 e2.b1.87
+e2.b0.98 e2.b1.88
+e2.b0.99 e2.b1.89
+e2.b0.9a e2.b1.8a
+e2.b0.9b e2.b1.8b
+e2.b0.9c e2.b1.8c
+e2.b0.9d e2.b1.8d
+e2.b0.9e e2.b1.8e
+e2.b0.9f e2.b1.8f
+e2.b0.a0 e2.b1.90
+e2.b0.a1 e2.b1.91
+e2.b0.a2 e2.b1.92
+e2.b0.a3 e2.b1.93
+e2.b0.a4 e2.b1.94
+e2.b0.a5 e2.b1.95
+e2.b0.a6 e2.b1.96
+e2.b0.a7 e2.b1.97
+e2.b0.a8 e2.b1.98
+e2.b0.a9 e2.b1.99
+e2.b0.aa e2.b1.9a
+e2.b0.ab e2.b1.9b
+e2.b0.ac e2.b1.9c
+e2.b0.ad e2.b1.9d
+e2.b0.ae e2.b1.9e
+e2.b1.a0 e2.b1.a1
+e2.b1.a2 c9.ab
+e2.b1.a3 e1.b5.bd
+e2.b1.a4 c9.bd
+e2.b1.a7 e2.b1.a8
+e2.b1.a9 e2.b1.aa
+e2.b1.ab e2.b1.ac
+e2.b1.ad c9.91
+e2.b1.ae c9.b1
+e2.b1.af c9.90
+e2.b1.b0 c9.92
+e2.b1.b2 e2.b1.b3
+e2.b1.b5 e2.b1.b6
+e2.b1.be c8.bf
+e2.b1.bf c9.80
+e2.b2.80 e2.b2.81
+e2.b2.82 e2.b2.83
+e2.b2.84 e2.b2.85
+e2.b2.86 e2.b2.87
+e2.b2.88 e2.b2.89
+e2.b2.8a e2.b2.8b
+e2.b2.8c e2.b2.8d
+e2.b2.8e e2.b2.8f
+e2.b2.90 e2.b2.91
+e2.b2.92 e2.b2.93
+e2.b2.94 e2.b2.95
+e2.b2.96 e2.b2.97
+e2.b2.98 e2.b2.99
+e2.b2.9a e2.b2.9b
+e2.b2.9c e2.b2.9d
+e2.b2.9e e2.b2.9f
+e2.b2.a0 e2.b2.a1
+e2.b2.a2 e2.b2.a3
+e2.b2.a4 e2.b2.a5
+e2.b2.a6 e2.b2.a7
+e2.b2.a8 e2.b2.a9
+e2.b2.aa e2.b2.ab
+e2.b2.ac e2.b2.ad
+e2.b2.ae e2.b2.af
+e2.b2.b0 e2.b2.b1
+e2.b2.b2 e2.b2.b3
+e2.b2.b4 e2.b2.b5
+e2.b2.b6 e2.b2.b7
+e2.b2.b8 e2.b2.b9
+e2.b2.ba e2.b2.bb
+e2.b2.bc e2.b2.bd
+e2.b2.be e2.b2.bf
+e2.b3.80 e2.b3.81
+e2.b3.82 e2.b3.83
+e2.b3.84 e2.b3.85
+e2.b3.86 e2.b3.87
+e2.b3.88 e2.b3.89
+e2.b3.8a e2.b3.8b
+e2.b3.8c e2.b3.8d
+e2.b3.8e e2.b3.8f
+e2.b3.90 e2.b3.91
+e2.b3.92 e2.b3.93
+e2.b3.94 e2.b3.95
+e2.b3.96 e2.b3.97
+e2.b3.98 e2.b3.99
+e2.b3.9a e2.b3.9b
+e2.b3.9c e2.b3.9d
+e2.b3.9e e2.b3.9f
+e2.b3.a0 e2.b3.a1
+e2.b3.a2 e2.b3.a3
+e2.b3.ab e2.b3.ac
+e2.b3.ad e2.b3.ae
+e2.b3.b2 e2.b3.b3
+
+#ea.98/13
+#SPECIAL
+#ea.9d.bd e1.b5.b9
+#ea.9e.8d c9.a5
+#ea.9e.aa c9.a6
+#ea.9e.ab c9.9c
+#ea.9e.ac c9.a1
+#ea.9e.ad c9.ac
+#ea.9e.b0 ca.9e
+#ea.9e.b1 ca.87
+#ea.9e.b2 ca.9d
+ea.99.80 ea.99.81
+ea.99.82 ea.99.83
+ea.99.84 ea.99.85
+ea.99.86 ea.99.87
+ea.99.88 ea.99.89
+ea.99.8a ea.99.8b
+ea.99.8c ea.99.8d
+ea.99.8e ea.99.8f
+ea.99.90 ea.99.91
+ea.99.92 ea.99.93
+ea.99.94 ea.99.95
+ea.99.96 ea.99.97
+ea.99.98 ea.99.99
+ea.99.9a ea.99.9b
+ea.99.9c ea.99.9d
+ea.99.9e ea.99.9f
+ea.99.a0 ea.99.a1
+ea.99.a2 ea.99.a3
+ea.99.a4 ea.99.a5
+ea.99.a6 ea.99.a7
+ea.99.a8 ea.99.a9
+ea.99.aa ea.99.ab
+ea.99.ac ea.99.ad
+ea.9a.80 ea.9a.81
+ea.9a.82 ea.9a.83
+ea.9a.84 ea.9a.85
+ea.9a.86 ea.9a.87
+ea.9a.88 ea.9a.89
+ea.9a.8a ea.9a.8b
+ea.9a.8c ea.9a.8d
+ea.9a.8e ea.9a.8f
+ea.9a.90 ea.9a.91
+ea.9a.92 ea.9a.93
+ea.9a.94 ea.9a.95
+ea.9a.96 ea.9a.97
+ea.9a.98 ea.9a.99
+ea.9a.9a ea.9a.9b
+ea.9c.a2 ea.9c.a3
+ea.9c.a4 ea.9c.a5
+ea.9c.a6 ea.9c.a7
+ea.9c.a8 ea.9c.a9
+ea.9c.aa ea.9c.ab
+ea.9c.ac ea.9c.ad
+ea.9c.ae ea.9c.af
+ea.9c.b2 ea.9c.b3
+ea.9c.b4 ea.9c.b5
+ea.9c.b6 ea.9c.b7
+ea.9c.b8 ea.9c.b9
+ea.9c.ba ea.9c.bb
+ea.9c.bc ea.9c.bd
+ea.9c.be ea.9c.bf
+ea.9d.80 ea.9d.81
+ea.9d.82 ea.9d.83
+ea.9d.84 ea.9d.85
+ea.9d.86 ea.9d.87
+ea.9d.88 ea.9d.89
+ea.9d.8a ea.9d.8b
+ea.9d.8c ea.9d.8d
+ea.9d.8e ea.9d.8f
+ea.9d.90 ea.9d.91
+ea.9d.92 ea.9d.93
+ea.9d.94 ea.9d.95
+ea.9d.96 ea.9d.97
+ea.9d.98 ea.9d.99
+ea.9d.9a ea.9d.9b
+ea.9d.9c ea.9d.9d
+ea.9d.9e ea.9d.9f
+ea.9d.a0 ea.9d.a1
+ea.9d.a2 ea.9d.a3
+ea.9d.a4 ea.9d.a5
+ea.9d.a6 ea.9d.a7
+ea.9d.a8 ea.9d.a9
+ea.9d.aa ea.9d.ab
+ea.9d.ac ea.9d.ad
+ea.9d.ae ea.9d.af
+ea.9d.b9 ea.9d.ba
+ea.9d.bb ea.9d.bc
+ea.9d.bd e1.b5.b9
+ea.9d.be ea.9d.bf
+ea.9e.80 ea.9e.81
+ea.9e.82 ea.9e.83
+ea.9e.84 ea.9e.85
+ea.9e.86 ea.9e.87
+ea.9e.8b ea.9e.8c
+ea.9e.8d c9.a5
+ea.9e.90 ea.9e.91
+ea.9e.92 ea.9e.93
+ea.9e.96 ea.9e.97
+ea.9e.98 ea.9e.99
+ea.9e.9a ea.9e.9b
+ea.9e.9c ea.9e.9d
+ea.9e.9e ea.9e.9f
+ea.9e.a0 ea.9e.a1
+ea.9e.a2 ea.9e.a3
+ea.9e.a4 ea.9e.a5
+ea.9e.a6 ea.9e.a7
+ea.9e.a8 ea.9e.a9
+ea.9e.aa c9.a6
+ea.9e.ab c9.9c
+ea.9e.ac c9.a1
+ea.9e.ad c9.ac
+ea.9e.b0 ca.9e
+ea.9e.b1 ca.87
+ea.9e.b2 ca.9d
+ea.9e.b3 ea.ad.93
+ea.9e.b4 ea.9e.b5
+ea.9e.b6 ea.9e.b7
+
+#ea.ad.b0/20
+ea.ad.b0 e1.8e.a0
+ea.ad.b1 e1.8e.a1
+ea.ad.b2 e1.8e.a2
+ea.ad.b3 e1.8e.a3
+ea.ad.b4 e1.8e.a4
+ea.ad.b5 e1.8e.a5
+ea.ad.b6 e1.8e.a6
+ea.ad.b7 e1.8e.a7
+ea.ad.b8 e1.8e.a8
+ea.ad.b9 e1.8e.a9
+ea.ad.ba e1.8e.aa
+ea.ad.bb e1.8e.ab
+ea.ad.bc e1.8e.ac
+ea.ad.bd e1.8e.ad
+ea.ad.be e1.8e.ae
+ea.ad.bf e1.8e.af
+
+#ea.ae.80/18
+ea.ae.80 e1.8e.b0
+ea.ae.81 e1.8e.b1
+ea.ae.82 e1.8e.b2
+ea.ae.83 e1.8e.b3
+ea.ae.84 e1.8e.b4
+ea.ae.85 e1.8e.b5
+ea.ae.86 e1.8e.b6
+ea.ae.87 e1.8e.b7
+ea.ae.88 e1.8e.b8
+ea.ae.89 e1.8e.b9
+ea.ae.8a e1.8e.ba
+ea.ae.8b e1.8e.bb
+ea.ae.8c e1.8e.bc
+ea.ae.8d e1.8e.bd
+ea.ae.8e e1.8e.be
+ea.ae.8f e1.8e.bf
+ea.ae.90 e1.8f.80
+ea.ae.91 e1.8f.81
+ea.ae.92 e1.8f.82
+ea.ae.93 e1.8f.83
+ea.ae.94 e1.8f.84
+ea.ae.95 e1.8f.85
+ea.ae.96 e1.8f.86
+ea.ae.97 e1.8f.87
+ea.ae.98 e1.8f.88
+ea.ae.99 e1.8f.89
+ea.ae.9a e1.8f.8a
+ea.ae.9b e1.8f.8b
+ea.ae.9c e1.8f.8c
+ea.ae.9d e1.8f.8d
+ea.ae.9e e1.8f.8e
+ea.ae.9f e1.8f.8f
+ea.ae.a0 e1.8f.90
+ea.ae.a1 e1.8f.91
+ea.ae.a2 e1.8f.92
+ea.ae.a3 e1.8f.93
+ea.ae.a4 e1.8f.94
+ea.ae.a5 e1.8f.95
+ea.ae.a6 e1.8f.96
+ea.ae.a7 e1.8f.97
+ea.ae.a8 e1.8f.98
+ea.ae.a9 e1.8f.99
+ea.ae.aa e1.8f.9a
+ea.ae.ab e1.8f.9b
+ea.ae.ac e1.8f.9c
+ea.ae.ad e1.8f.9d
+ea.ae.ae e1.8f.9e
+ea.ae.af e1.8f.9f
+ea.ae.b0 e1.8f.a0
+ea.ae.b1 e1.8f.a1
+ea.ae.b2 e1.8f.a2
+ea.ae.b3 e1.8f.a3
+ea.ae.b4 e1.8f.a4
+ea.ae.b5 e1.8f.a5
+ea.ae.b6 e1.8f.a6
+ea.ae.b7 e1.8f.a7
+ea.ae.b8 e1.8f.a8
+ea.ae.b9 e1.8f.a9
+ea.ae.ba e1.8f.aa
+ea.ae.bb e1.8f.ab
+ea.ae.bc e1.8f.ac
+ea.ae.bd e1.8f.ad
+ea.ae.be e1.8f.ae
+ea.ae.bf e1.8f.af
+
+#ef.ac.80/19
+#SPECIAL
+#ef.ac.80 66 66
+#ef.ac.81 66 69
+#ef.ac.82 66 6c
+#ef.ac.85 73 74
+#ef.ac.86 73 74
+#ef.ac.93 d5.b4 d5.b6
+#ef.ac.94 d5.b4 d5.a5
+#ef.ac.95 d5.b4 d5.ab
+#ef.ac.96 d5.be d5.b6
+#ef.ac.97 d5.b4 d5.ad
+ef.ac.80 66 66
+ef.ac.81 66 69
+ef.ac.82 66 6c
+ef.ac.83 66 66 69
+ef.ac.84 66 66 6c
+ef.ac.85 73 74
+ef.ac.86 73 74
+ef.ac.93 d5.b4 d5.b6
+ef.ac.94 d5.b4 d5.a5
+ef.ac.95 d5.b4 d5.ab
+ef.ac.96 d5.be d5.b6
+ef.ac.97 d5.b4 d5.ad
+
+#ef.bc.a0/19
+ef.bc.a1 ef.bd.81
+ef.bc.a2 ef.bd.82
+ef.bc.a3 ef.bd.83
+ef.bc.a4 ef.bd.84
+ef.bc.a5 ef.bd.85
+ef.bc.a6 ef.bd.86
+ef.bc.a7 ef.bd.87
+ef.bc.a8 ef.bd.88
+ef.bc.a9 ef.bd.89
+ef.bc.aa ef.bd.8a
+ef.bc.ab ef.bd.8b
+ef.bc.ac ef.bd.8c
+ef.bc.ad ef.bd.8d
+ef.bc.ae ef.bd.8e
+ef.bc.af ef.bd.8f
+ef.bc.b0 ef.bd.90
+ef.bc.b1 ef.bd.91
+ef.bc.b2 ef.bd.92
+ef.bc.b3 ef.bd.93
+ef.bc.b4 ef.bd.94
+ef.bc.b5 ef.bd.95
+ef.bc.b6 ef.bd.96
+ef.bc.b7 ef.bd.97
+ef.bc.b8 ef.bd.98
+ef.bc.b9 ef.bd.99
+ef.bc.ba ef.bd.9a
+
+#f0.90.90.80/26
+f0.90.90.80 f0.90.90.a8
+f0.90.90.81 f0.90.90.a9
+f0.90.90.82 f0.90.90.aa
+f0.90.90.83 f0.90.90.ab
+f0.90.90.84 f0.90.90.ac
+f0.90.90.85 f0.90.90.ad
+f0.90.90.86 f0.90.90.ae
+f0.90.90.87 f0.90.90.af
+f0.90.90.88 f0.90.90.b0
+f0.90.90.89 f0.90.90.b1
+f0.90.90.8a f0.90.90.b2
+f0.90.90.8b f0.90.90.b3
+f0.90.90.8c f0.90.90.b4
+f0.90.90.8d f0.90.90.b5
+f0.90.90.8e f0.90.90.b6
+f0.90.90.8f f0.90.90.b7
+f0.90.90.90 f0.90.90.b8
+f0.90.90.91 f0.90.90.b9
+f0.90.90.92 f0.90.90.ba
+f0.90.90.93 f0.90.90.bb
+f0.90.90.94 f0.90.90.bc
+f0.90.90.95 f0.90.90.bd
+f0.90.90.96 f0.90.90.be
+f0.90.90.97 f0.90.90.bf
+f0.90.90.98 f0.90.91.80
+f0.90.90.99 f0.90.91.81
+f0.90.90.9a f0.90.91.82
+f0.90.90.9b f0.90.91.83
+f0.90.90.9c f0.90.91.84
+f0.90.90.9d f0.90.91.85
+f0.90.90.9e f0.90.91.86
+f0.90.90.9f f0.90.91.87
+f0.90.90.a0 f0.90.91.88
+f0.90.90.a1 f0.90.91.89
+f0.90.90.a2 f0.90.91.8a
+f0.90.90.a3 f0.90.91.8b
+f0.90.90.a4 f0.90.91.8c
+f0.90.90.a5 f0.90.91.8d
+f0.90.90.a6 f0.90.91.8e
+f0.90.90.a7 f0.90.91.8f
+
+#f0.90.b2.80/26
+f0.90.b2.80 f0.90.b3.80
+f0.90.b2.81 f0.90.b3.81
+f0.90.b2.82 f0.90.b3.82
+f0.90.b2.83 f0.90.b3.83
+f0.90.b2.84 f0.90.b3.84
+f0.90.b2.85 f0.90.b3.85
+f0.90.b2.86 f0.90.b3.86
+f0.90.b2.87 f0.90.b3.87
+f0.90.b2.88 f0.90.b3.88
+f0.90.b2.89 f0.90.b3.89
+f0.90.b2.8a f0.90.b3.8a
+f0.90.b2.8b f0.90.b3.8b
+f0.90.b2.8c f0.90.b3.8c
+f0.90.b2.8d f0.90.b3.8d
+f0.90.b2.8e f0.90.b3.8e
+f0.90.b2.8f f0.90.b3.8f
+f0.90.b2.90 f0.90.b3.90
+f0.90.b2.91 f0.90.b3.91
+f0.90.b2.92 f0.90.b3.92
+f0.90.b2.93 f0.90.b3.93
+f0.90.b2.94 f0.90.b3.94
+f0.90.b2.95 f0.90.b3.95
+f0.90.b2.96 f0.90.b3.96
+f0.90.b2.97 f0.90.b3.97
+f0.90.b2.98 f0.90.b3.98
+f0.90.b2.99 f0.90.b3.99
+f0.90.b2.9a f0.90.b3.9a
+f0.90.b2.9b f0.90.b3.9b
+f0.90.b2.9c f0.90.b3.9c
+f0.90.b2.9d f0.90.b3.9d
+f0.90.b2.9e f0.90.b3.9e
+f0.90.b2.9f f0.90.b3.9f
+f0.90.b2.a0 f0.90.b3.a0
+f0.90.b2.a1 f0.90.b3.a1
+f0.90.b2.a2 f0.90.b3.a2
+f0.90.b2.a3 f0.90.b3.a3
+f0.90.b2.a4 f0.90.b3.a4
+f0.90.b2.a5 f0.90.b3.a5
+f0.90.b2.a6 f0.90.b3.a6
+f0.90.b2.a7 f0.90.b3.a7
+f0.90.b2.a8 f0.90.b3.a8
+f0.90.b2.a9 f0.90.b3.a9
+f0.90.b2.aa f0.90.b3.aa
+f0.90.b2.ab f0.90.b3.ab
+f0.90.b2.ac f0.90.b3.ac
+f0.90.b2.ad f0.90.b3.ad
+f0.90.b2.ae f0.90.b3.ae
+f0.90.b2.af f0.90.b3.af
+f0.90.b2.b0 f0.90.b3.b0
+f0.90.b2.b1 f0.90.b3.b1
+f0.90.b2.b2 f0.90.b3.b2
+
+#f0.91.a2.a0/27
+f0.91.a2.a0 f0.91.a3.80
+f0.91.a2.a1 f0.91.a3.81
+f0.91.a2.a2 f0.91.a3.82
+f0.91.a2.a3 f0.91.a3.83
+f0.91.a2.a4 f0.91.a3.84
+f0.91.a2.a5 f0.91.a3.85
+f0.91.a2.a6 f0.91.a3.86
+f0.91.a2.a7 f0.91.a3.87
+f0.91.a2.a8 f0.91.a3.88
+f0.91.a2.a9 f0.91.a3.89
+f0.91.a2.aa f0.91.a3.8a
+f0.91.a2.ab f0.91.a3.8b
+f0.91.a2.ac f0.91.a3.8c
+f0.91.a2.ad f0.91.a3.8d
+f0.91.a2.ae f0.91.a3.8e
+f0.91.a2.af f0.91.a3.8f
+f0.91.a2.b0 f0.91.a3.90
+f0.91.a2.b1 f0.91.a3.91
+f0.91.a2.b2 f0.91.a3.92
+f0.91.a2.b3 f0.91.a3.93
+f0.91.a2.b4 f0.91.a3.94
+f0.91.a2.b5 f0.91.a3.95
+f0.91.a2.b6 f0.91.a3.96
+f0.91.a2.b7 f0.91.a3.97
+f0.91.a2.b8 f0.91.a3.98
+f0.91.a2.b9 f0.91.a3.99
+f0.91.a2.ba f0.91.a3.9a
+f0.91.a2.bb f0.91.a3.9b
+f0.91.a2.bc f0.91.a3.9c
+f0.91.a2.bd f0.91.a3.9d
+f0.91.a2.be f0.91.a3.9e
+f0.91.a2.bf f0.91.a3.9f

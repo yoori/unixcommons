@@ -1,0 +1,9 @@
+# @file   dir.ac
+
+
+OSBE_CONFIG_FILE([Makefile])
+OSBE_CONFIG_SUBDIR([IsProperty])
+OSBE_CONFIG_SUBDIR([Performance])
+OSBE_CONFIG_SUBDIR([StressTest])
+OSBE_CONFIG_SUBDIR([UnicodeSymbol])
+OSBE_CONFIG_SUBDIR([UTF8Category])

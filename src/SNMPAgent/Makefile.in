@@ -1,0 +1,6 @@
+@snmpagentx_deps@
+
+sources := \
+  SNMPAgentX.cpp \
+
+@snmpagentx_post@

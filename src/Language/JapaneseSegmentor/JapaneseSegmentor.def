@@ -1,0 +1,10 @@
+name=JapaneseSegmentor
+so_files=JapaneseSegmentor
+
+osbe_cxx_dep "SegmentorCommons"
+osbe_cxx_dep "Stream"
+if [ "X$use_mecab" = "Xfull" ]; then
+  osbe_cxx_dep "Mecab"
+fi
+
+$unixcommons_def_initializer

@@ -1,0 +1,6 @@
+@corbaobjectpoolint_deps@
+
+sources := ObjectPoolInt.cpp
+target := CORBAObjectPoolInt
+
+include $(top_srcdir)/tests/Test.post.rules

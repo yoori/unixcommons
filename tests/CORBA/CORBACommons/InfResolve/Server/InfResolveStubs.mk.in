@@ -1,0 +1,5 @@
+@infresolvestubs_deps@
+
+corba_stub_idls := server.idl
+
+@infresolvestubs_post@

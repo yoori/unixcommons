@@ -1,0 +1,9 @@
+# @file   Makefile.in
+
+
+@testconditionvariable_deps@
+
+sources := Application.cpp
+target := TestConditionVariable
+
+include $(top_srcdir)/tests/Test.post.rules

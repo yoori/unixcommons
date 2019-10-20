@@ -1,0 +1,9 @@
+# @file   Makefile.in
+
+
+@testscheduler_deps@
+
+sources := Application.cpp
+target := TestScheduler
+
+include $(top_srcdir)/tests/Test.post.rules

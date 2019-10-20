@@ -1,0 +1,5 @@
+@simplestubs_deps@
+
+corba_stub_idls := Simple.idl
+
+@simplestubs_post@

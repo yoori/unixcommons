@@ -1,0 +1,13 @@
+# @file   Makefile.in
+
+
+include Common.pre.rules
+
+target_directory_list := \
+  IsProperty \
+  Performance \
+  StressTest \
+  UnicodeSymbol \
+  UTF8Category
+
+include $(osbe_builddir)/config/Direntry.post.rules

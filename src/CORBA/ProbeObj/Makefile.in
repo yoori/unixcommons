@@ -1,0 +1,9 @@
+# @file   Makefile.in
+
+
+@probeobj_deps@
+
+sources := Application.cpp
+target := ProbeObj
+
+@probeobj_post@

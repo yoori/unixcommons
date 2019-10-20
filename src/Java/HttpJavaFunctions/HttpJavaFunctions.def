@@ -1,0 +1,12 @@
+name="HTTP Java Functions"
+if [ "X$use_java" != "Xnone" ]; then
+  so_files=HttpJavaFunctions
+
+  osbe_cxx_dep "JavaCommons"
+  osbe_cxx_dep "http"
+# osbe_cxx_dep "GenericSegmentor"
+# osbe_cxx_dep "ChineeseSegmentor"
+  osbe_cxx_dep "BLogic"
+
+  $unixcommons_def_initializer
+fi

@@ -1,0 +1,42 @@
+#ifndef CORBA_COMMONS_CORBA_OBJECT_REF_IDL
+#define CORBA_COMMONS_CORBA_OBJECT_REF_IDL
+
+/**X
+  * Common namespace for allgeneric CORBA services
+  */
+module CORBACommons
+{
+  typedef string PEMContent;
+
+  typedef PEMContent Certificate;
+  typedef PEMContent PrivateKey;
+  typedef PEMContent CertificateAuthority;
+
+  struct SecureConnectionDef
+  {
+    PrivateKey private_key;
+    string pass_phrase;
+    Certificate own_certificate;
+    CertificateAuthority peer_certificate_authority;
+  };
+
+  enum ConnectionTypeDef
+  {
+    CT_SECURE,
+    CT_NON_SECURE
+  };
+
+  struct ConnectionDef
+  {
+    ConnectionTypeDef connection_type;
+    SecureConnectionDef secure_connection;
+  };
+
+  struct CorbaObjectRefDef
+  {
+    string object_ref;
+    ConnectionDef connection;
+  };
+};
+
+#endif

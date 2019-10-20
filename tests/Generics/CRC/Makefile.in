@@ -1,0 +1,10 @@
+# @file   Makefile.in
+
+
+@testcrc_deps@
+
+sources := TestCRC.cpp
+target := TestCRC
+test_arguments := 3 2735984880 $(srcdir)/Data/test.dat
+
+include $(top_srcdir)/tests/Test.post.rules

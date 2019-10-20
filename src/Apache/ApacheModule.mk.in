@@ -1,0 +1,10 @@
+# @file   Makefile.in
+
+
+@apachemodule_deps@
+
+sources  := Module.cpp
+includes := src
+CPP_FLAGS += -DAP_HAVE_DESIGNATED_INITIALIZER
+
+@apachemodule_post@

@@ -1,0 +1,6 @@
+name=CheckCommons
+so_files=CheckCommons
+
+osbe_cxx_dep "Logger"
+
+$unixcommons_def_initializer

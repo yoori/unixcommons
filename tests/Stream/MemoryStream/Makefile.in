@@ -1,0 +1,6 @@
+@testmemorystream_deps@
+
+sources := Main.cpp
+target := TestMemoryStream
+
+include $(top_srcdir)/tests/Test.post.rules

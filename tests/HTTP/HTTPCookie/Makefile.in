@@ -1,0 +1,9 @@
+# @file   Makefile.in
+
+
+@testhttpcookie_deps@
+
+sources := Application.cpp
+target := TestHTTPCookie
+
+include $(top_srcdir)/tests/Test.post.rules

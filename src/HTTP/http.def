@@ -1,0 +1,6 @@
+name=HTTP
+so_files=http
+
+osbe_cxx_dep "Stream"
+
+$unixcommons_def_initializer

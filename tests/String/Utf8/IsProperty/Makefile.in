@@ -1,0 +1,11 @@
+# @file   Makefile.in
+
+
+@testisproperty_deps@
+
+sources := IsProperty.cpp
+target := TestIsProperty
+test_arguments := all
+vg_test_arguments :=
+
+include $(top_srcdir)/tests/Test.post.rules

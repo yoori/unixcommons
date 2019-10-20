@@ -1,0 +1,7 @@
+@plainstorage_deps@
+
+sources := \
+  BlockFileAdapter.cpp \
+  Map.cpp \
+
+@plainstorage_post@

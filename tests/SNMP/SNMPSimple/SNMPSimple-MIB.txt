@@ -1,0 +1,299 @@
+SNMPSimple-MIB DEFINITIONS ::= BEGIN
+
+IMPORTS
+  MODULE-IDENTITY, OBJECT-TYPE, Integer32 FROM SNMPv2-SMI
+  DisplayString FROM SNMPv2-TC
+  phorm FROM Phorm-MIB;
+
+SNMPSimple MODULE-IDENTITY
+  LAST-UPDATED "201507211600Z"
+  ORGANIZATION "Phorm"
+  CONTACT-INFO "admin@phorm.com"
+  DESCRIPTION "SNMPSimple specific"
+  ::= { phorm 2509 }
+
+
+PID OBJECT-TYPE
+  SYNTAX Unsigned32
+  MAX-ACCESS read-only
+  STATUS current
+  DESCRIPTION "PID of the corresponding process"
+  ::= { SNMPSimple 1 }
+
+Name OBJECT-TYPE
+  SYNTAX DisplayString (SIZE(0..128))
+  MAX-ACCESS read-only
+  STATUS current
+  DESCRIPTION "name of the corresponding process"
+  ::= { SNMPSimple 2 }
+
+Random OBJECT-TYPE
+  SYNTAX Integer32
+  MAX-ACCESS read-only
+  STATUS current
+  DESCRIPTION "Random value"
+  ::= { SNMPSimple 3 }
+
+
+
+Node1 OBJECT IDENTIFIER ::= { SNMPSimple 5 }
+Node2 OBJECT IDENTIFIER ::= { SNMPSimple 7 }
+Node3 OBJECT IDENTIFIER ::= { SNMPSimple 8 }
+Node4 OBJECT IDENTIFIER ::= { Node1 5 }
+Node5 OBJECT IDENTIFIER ::= { Node2 5 }
+Node6 OBJECT IDENTIFIER ::= { Node5 5 }
+
+
+Random10 OBJECT-TYPE
+  SYNTAX Integer32
+  MAX-ACCESS read-only
+  STATUS current
+  DESCRIPTION "Random value"
+  ::= { Node1 10 }
+
+Random11 OBJECT-TYPE
+  SYNTAX Integer32
+  MAX-ACCESS read-only
+  STATUS current
+  DESCRIPTION "Random value"
+  ::= { Node2 11 }
+
+Random12 OBJECT-TYPE
+  SYNTAX Integer32
+  MAX-ACCESS read-only
+  STATUS current
+  DESCRIPTION "Random value"
+  ::= { Node3 12 }
+
+Random13 OBJECT-TYPE
+  SYNTAX Integer32
+  MAX-ACCESS read-only
+  STATUS current
+  DESCRIPTION "Random value"
+  ::= { Node4 13 }
+
+Random14 OBJECT-TYPE
+  SYNTAX Integer32
+  MAX-ACCESS read-only
+  STATUS current
+  DESCRIPTION "Random value"
+  ::= { Node5 14 }
+
+Random15 OBJECT-TYPE
+  SYNTAX Integer32
+  MAX-ACCESS read-only
+  STATUS current
+  DESCRIPTION "Random value"
+  ::= { Node6 15 }
+
+Random16 OBJECT-TYPE
+  SYNTAX Integer32
+  MAX-ACCESS read-only
+  STATUS current
+  DESCRIPTION "Random value"
+  ::= { Node1 16 }
+
+Random17 OBJECT-TYPE
+  SYNTAX Integer32
+  MAX-ACCESS read-only
+  STATUS current
+  DESCRIPTION "Random value"
+  ::= { Node2 17 }
+
+Random18 OBJECT-TYPE
+  SYNTAX Integer32
+  MAX-ACCESS read-only
+  STATUS current
+  DESCRIPTION "Random value"
+  ::= { Node3 18 }
+
+Random19 OBJECT-TYPE
+  SYNTAX Integer32
+  MAX-ACCESS read-only
+  STATUS current
+  DESCRIPTION "Random value"
+  ::= { Node4 19 }
+
+Random20 OBJECT-TYPE
+  SYNTAX Integer32
+  MAX-ACCESS read-only
+  STATUS current
+  DESCRIPTION "Random value"
+  ::= { Node5 20 }
+
+Random21 OBJECT-TYPE
+  SYNTAX Integer32
+  MAX-ACCESS read-only
+  STATUS current
+  DESCRIPTION "Random value"
+  ::= { Node6 21 }
+
+Random22 OBJECT-TYPE
+  SYNTAX Integer32
+  MAX-ACCESS read-only
+  STATUS current
+  DESCRIPTION "Random value"
+  ::= { Node1 22 }
+
+Random23 OBJECT-TYPE
+  SYNTAX Integer32
+  MAX-ACCESS read-only
+  STATUS current
+  DESCRIPTION "Random value"
+  ::= { Node2 23 }
+
+Random24 OBJECT-TYPE
+  SYNTAX Integer32
+  MAX-ACCESS read-only
+  STATUS current
+  DESCRIPTION "Random value"
+  ::= { Node3 24 }
+
+Random25 OBJECT-TYPE
+  SYNTAX Integer32
+  MAX-ACCESS read-only
+  STATUS current
+  DESCRIPTION "Random value"
+  ::= { Node4 25 }
+
+Random26 OBJECT-TYPE
+  SYNTAX Integer32
+  MAX-ACCESS read-only
+  STATUS current
+  DESCRIPTION "Random value"
+  ::= { Node5 26 }
+
+Random27 OBJECT-TYPE
+  SYNTAX Integer32
+  MAX-ACCESS read-only
+  STATUS current
+  DESCRIPTION "Random value"
+  ::= { Node6 27 }
+
+Random28 OBJECT-TYPE
+  SYNTAX Integer32
+  MAX-ACCESS read-only
+  STATUS current
+  DESCRIPTION "Random value"
+  ::= { Node1 28 }
+
+Random29 OBJECT-TYPE
+  SYNTAX Integer32
+  MAX-ACCESS read-only
+  STATUS current
+  DESCRIPTION "Random value"
+  ::= { Node2 29 }
+
+
+SeqIndexTC ::= TEXTUAL-CONVENTION
+  STATUS current
+  DESCRIPTION "Sequence TC"
+  SYNTAX Integer32 { one(1), two(2), ugarwx(666) }
+
+SeqTable OBJECT-TYPE
+  SYNTAX SEQUENCE OF SeqType
+  MAX-ACCESS not-accessible
+  STATUS current
+  DESCRIPTION "Sequence Table"
+  ::= { SNMPSimple 10 }
+
+SeqEntry OBJECT-TYPE
+  SYNTAX SeqType
+  MAX-ACCESS not-accessible
+  STATUS current
+  DESCRIPTION "Sequence Entry"
+  INDEX { Data1 }
+  ::= { SeqTable 1 }
+
+SeqType ::= SEQUENCE {
+    Data1 SeqIndexTC,
+    Data2 Integer32,
+    Data3 Integer32,
+    Data4 Integer32
+  }
+
+Data1 OBJECT-TYPE
+  SYNTAX SeqIndexTC
+  MAX-ACCESS not-accessible
+  STATUS current
+  DESCRIPTION "Sequence Data1"
+  ::= { SeqEntry 1 }
+
+Data2 OBJECT-TYPE
+  SYNTAX Integer32
+  MAX-ACCESS read-only
+  STATUS current
+  DESCRIPTION "Sequence Data2"
+  ::= { SeqEntry 2 }
+
+Data3 OBJECT-TYPE
+  SYNTAX Integer32
+  MAX-ACCESS read-only
+  STATUS current
+  DESCRIPTION "Sequence Data3"
+  ::= { SeqEntry 3 }
+
+Data4 OBJECT-TYPE
+  SYNTAX Integer32
+  MAX-ACCESS read-only
+  STATUS current
+  DESCRIPTION "Sequence Data4"
+  ::= { SeqEntry 4 }
+
+
+Seq2IndexTC ::= TEXTUAL-CONVENTION
+  STATUS current
+  DESCRIPTION "Sequence2 TC"
+  SYNTAX Integer32 { ten(10), eleven(11), twelve(12) }
+
+Seq2Table OBJECT-TYPE
+  SYNTAX SEQUENCE OF Seq2Type
+  MAX-ACCESS not-accessible
+  STATUS current
+  DESCRIPTION "Sequence2 Table"
+  ::= { SNMPSimple 11 }
+
+Seq2Entry OBJECT-TYPE
+  SYNTAX Seq2Type
+  MAX-ACCESS not-accessible
+  STATUS current
+  DESCRIPTION "Sequence Entry"
+  INDEX { Index1 Index2 }
+  ::= { Seq2Table 1 }
+
+Seq2Type ::= SEQUENCE {
+    Index1 Seq2IndexTC,
+    Index2 Integer32,
+    Data23 Integer32,
+    Data24 Integer32
+  }
+
+Index1 OBJECT-TYPE
+  SYNTAX Seq2IndexTC
+  MAX-ACCESS not-accessible
+  STATUS current
+  DESCRIPTION "Sequence2 Index1"
+  ::= { Seq2Entry 1 }
+
+Index2 OBJECT-TYPE
+  SYNTAX Integer32
+  MAX-ACCESS read-only
+  STATUS current
+  DESCRIPTION "Sequence2 Index2"
+  ::= { Seq2Entry 2 }
+
+Data23 OBJECT-TYPE
+  SYNTAX Integer32
+  MAX-ACCESS read-only
+  STATUS current
+  DESCRIPTION "Sequence2 Data3"
+  ::= { Seq2Entry 3 }
+
+Data24 OBJECT-TYPE
+  SYNTAX Integer32
+  MAX-ACCESS read-only
+  STATUS current
+  DESCRIPTION "Sequence2 Data4"
+  ::= { Seq2Entry 4 }
+
+END

@@ -1,0 +1,5 @@
+name=TestIntStubs
+so_files=TestIntStubs
+
+osbe_cxx_feature_dep "CORBA"
+osbe_cxx_dep "CORBACommons"

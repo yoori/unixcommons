@@ -1,0 +1,9 @@
+name=Stream
+so_files=Stream
+
+osbe_cxx_dep "ACE"
+osbe_cxx_dep "BZip2"
+osbe_cxx_dep "GZip"
+osbe_cxx_dep "Generics"
+
+$unixcommons_def_initializer

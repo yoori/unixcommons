@@ -1,0 +1,13 @@
+#ifndef CORBA_COMMONS_TEST_INT2_IDL
+#define CORBA_COMMONS_TEST_INT2_IDL
+
+module CORBATest
+{
+  interface TestInt
+  {
+    void
+    test();
+  };
+};
+
+#endif // CORBA_COMMONS_TEST_INT2_IDL

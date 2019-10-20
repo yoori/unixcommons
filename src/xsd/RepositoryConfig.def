@@ -1,0 +1,6 @@
+name=RepositoryConfig
+ar_files=RepositoryConfig
+
+osbe_cxx_feature_dep "XSDTree"
+
+$unixcommons_def_initializer

@@ -1,0 +1,6 @@
+@hostnameutil_deps@
+
+sources := HostnameUtil.cpp
+target := HostnameUtil
+
+@hostnameutil_post@

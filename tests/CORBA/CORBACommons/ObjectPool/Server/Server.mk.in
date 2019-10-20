@@ -1,0 +1,7 @@
+@corbaobjectpoolserver_deps@
+
+sources := ObjectPoolTestServer.cpp
+corba_skeleton_idls := Simple.idl
+target := CORBAObjectPoolServer
+
+@corbaobjectpoolserver_post@

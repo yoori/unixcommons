@@ -1,0 +1,11 @@
+@performancetest_deps@
+
+sources := Main.cpp TestClasses.cpp
+target := SegmentorPerformanceTest
+
+test_arguments := -i 100000 $$TEST_TOP_SRC_DIR/tests/Language/Data/
+vg_test_arguments := -q $$TEST_TOP_SRC_DIR/tests/Language/Data/
+
+vg_timeout := 30
+
+include $(top_srcdir)/tests/Test.post.rules

@@ -1,0 +1,5 @@
+name="Reference Counting"
+
+osbe_cxx_dep "Sync"
+
+$unixcommons_def_initializer

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema 
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
+  targetNamespace="http://www.peopleonpage.com/RepositoryDump" 
+  xmlns="http://www.peopleonpage.com/RepositoryDump" 
+  elementFormDefault="qualified" 
+  xml:lang="en" 
+  version="1.0">
+	<xsd:annotation>
+		<xsd:documentation>Repository service Dump File, XML Schema</xsd:documentation>
+	</xsd:annotation>
+
+	<xsd:element name="Repository" type="RootDirectoryType"/>
+
+	<!-- Element -->
+	<xsd:complexType name="ElementType">
+		<xsd:attribute name="name" type="xsd:string" use="required"/>
+		<xsd:attribute name="type" type="xsd:string" use="required"/>
+		<xsd:attribute name="value" type="xsd:string" use="required"/>
+	</xsd:complexType>
+	<!-- Element ends -->
+
+        <!-- RootDirectoryType -->
+	<xsd:complexType name="RootDirectoryType">
+		<xsd:sequence>
+			<xsd:element name="Directory" type="DirectoryType" minOccurs="0" maxOccurs="unbounded"/>
+			<xsd:element name="Element" type="ElementType" minOccurs="0" maxOccurs="unbounded"/>
+		</xsd:sequence>
+	</xsd:complexType> 
+        <!-- RootDirectoryType ends -->
+	
+        <!-- DirectoryType -->
+	<xsd:complexType name="DirectoryType">
+		<xsd:sequence>
+			<xsd:element name="Directory" type="DirectoryType" minOccurs="0" maxOccurs="unbounded"/>
+			<xsd:element name="Element" type="ElementType" minOccurs="0" maxOccurs="unbounded"/>
+		</xsd:sequence>
+		<xsd:attribute name="name" type="xsd:string" use="required"/>
+	</xsd:complexType>
+	<!-- DirectoryType ends -->
+
+</xsd:schema>
+

@@ -1,0 +1,7 @@
+@testemptpoliciesint_deps@
+
+sources := Main.cpp CommonClasses.cpp Tests.cpp
+target := TestEmptPoliciesInt
+apache_required := 1
+
+include $(top_srcdir)/tests/Test.post.rules

@@ -1,0 +1,6 @@
+@testsmartptr_deps@
+
+sources := Application.cpp
+target := TestSmartPtr
+
+include $(top_srcdir)/tests/Test.post.rules

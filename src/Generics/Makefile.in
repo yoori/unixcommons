@@ -1,0 +1,33 @@
+# @file   Makefile.in
+
+
+@generics_deps@
+
+sources := \
+  Allocator.cpp \
+  ActiveObject.cpp \
+  AppUtils.cpp \
+  CommonDecimal.cpp \
+  CompositeActiveObject.cpp \
+  CountryCodeManip.cpp \
+  CRC.cpp \
+  Crypto.cpp \
+  Hash.cpp \
+  Listener.cpp \
+  MMap.cpp \
+  MemBuf.cpp \
+  Network.cpp \
+  Periodic.cpp \
+  Plug.cpp \
+  Proc.cpp \
+  Rand.cpp \
+  Scheduler.cpp \
+  Singleton.cpp \
+  Statistics.cpp \
+  TaskRunner.cpp \
+  Time.cpp \
+  ThreadRunner.cpp \
+  Uuid.cpp \
+  Values.cpp \
+
+@generics_post@

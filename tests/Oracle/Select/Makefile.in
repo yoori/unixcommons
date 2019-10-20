@@ -1,0 +1,6 @@
+@testselect_deps@
+
+sources := Application.cpp
+target := TestSelect
+
+include $(top_srcdir)/tests/Test.post.rules

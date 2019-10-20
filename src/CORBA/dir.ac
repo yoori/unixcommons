@@ -1,0 +1,8 @@
+# @file   dir.ac
+
+
+OSBE_CONFIG_FILE([Makefile])
+OSBE_CONFIG_SUBDIR([CORBACommons])
+OSBE_CONFIG_SUBDIR([CORBAConfigParser])
+OSBE_CONFIG_SUBDIR([ProbeObj])
+OSBE_CONFIG_SUBDIR([StatsTool])

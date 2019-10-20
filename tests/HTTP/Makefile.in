@@ -1,0 +1,14 @@
+include Common.pre.rules
+
+target_directory_list := \
+  AsyncPoolComplexTest \
+  AsyncPoolSimpleTest \
+  AsynchVsSynch \
+  EmptyPoliciesInternalTest \
+  Expiration \
+  HTTPCookie \
+  HTTPAddress \
+  HttpTestCommons \
+  IDNA \
+
+include $(osbe_builddir)/config/Direntry.post.rules

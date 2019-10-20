@@ -1,0 +1,5 @@
+@testcrashstubs_deps@
+
+corba_stub_idls := TestCrash.idl
+
+@testcrashstubs_post@

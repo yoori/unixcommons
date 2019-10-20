@@ -1,0 +1,6 @@
+@polyglot_deps@
+
+sources := \
+  DictionaryLoader.cpp \
+
+@polyglot_post@

@@ -1,0 +1,9 @@
+# @file   Makefile.in
+
+
+@testutf8stress_deps@
+
+sources := StressTest.cpp
+target := TestUTF8Stress
+
+include $(top_srcdir)/tests/Test.post.rules

@@ -1,0 +1,13 @@
+name=KoreanSegmentor
+so_files=KoreanSegmentor
+
+osbe_cxx_dep "SegmentorCommons"
+osbe_cxx_dep "Stream"
+if [ "X$use_klt" = "Xfull" ]; then
+  osbe_cxx_dep "klt"
+fi
+if [ "X$use_moran" = "Xfull" -o "X$use_moran" = "Xno_tests" ]; then
+  osbe_cxx_dep "Moran"
+fi
+
+$unixcommons_def_initializer

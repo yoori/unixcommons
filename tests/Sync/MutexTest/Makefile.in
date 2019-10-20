@@ -1,0 +1,6 @@
+@mutextest_deps@
+
+sources := Main.cpp
+target := MutexTest
+
+include $(top_srcdir)/tests/Test.post.rules

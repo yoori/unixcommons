@@ -1,0 +1,6 @@
+name=RepositoryDump
+ar_files=RepositoryDump
+
+osbe_cxx_feature_dep "XSDTree"
+
+$unixcommons_def_initializer

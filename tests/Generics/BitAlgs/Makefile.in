@@ -1,0 +1,8 @@
+@testbitalgs_deps@
+
+sources := Application.cpp
+target := TestBitAlgs
+
+no_vg := 1
+
+include $(top_srcdir)/tests/Test.post.rules

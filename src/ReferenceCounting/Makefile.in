@@ -1,0 +1,5 @@
+@referencecounting_deps@
+
+includes := src
+
+@referencecounting_post@

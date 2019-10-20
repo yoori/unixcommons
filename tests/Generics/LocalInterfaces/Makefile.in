@@ -1,0 +1,6 @@
+@testlocalinterface_deps@
+
+sources := Application.cpp
+target := TestLocalInterface
+
+include $(top_srcdir)/tests/Test.post.rules

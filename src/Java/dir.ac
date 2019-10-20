@@ -1,0 +1,4 @@
+OSBE_CONFIG_FILE([Makefile])
+OSBE_CONFIG_SUBDIR([HttpJavaFunctions])
+OSBE_CONFIG_SUBDIR([JavaCommons])
+OSBE_CONFIG_SUBDIR([SyslogJavaAdapter])

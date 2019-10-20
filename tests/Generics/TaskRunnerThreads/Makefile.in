@@ -1,0 +1,6 @@
+@testtaskrunnerthreads_deps@
+
+sources := Application.cpp
+target := TestTaskRunnerThreads
+
+include $(top_srcdir)/tests/Test.post.rules

@@ -1,0 +1,31 @@
+# @file   Makefile.in
+
+
+include Common.pre.rules
+
+target_directory_list := \
+  Apache \
+  CaseUtil \
+  CORBA \
+  eh \
+  Generics \
+  GeoIP \
+  HostnameUtil \
+  HTTP \
+  Java \
+  Language \
+  Logger \
+  PlainStorage \
+  PrivacyFilter \
+  Profiler \
+  ReferenceCounting \
+  RotateLog \
+  SNMPAgent \
+  Stream \
+  String \
+  Sync \
+  TestCommons \
+  XMLUtility \
+  xsd \
+
+include $(osbe_builddir)/config/Direntry.post.rules
